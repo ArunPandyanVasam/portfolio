@@ -1,4 +1,4 @@
-@import "../../../vars.css";
+@import "../../vars.css";
 
 .container {
   position: relative;
@@ -51,7 +51,8 @@
 }
 
 .heroImg {
-    width: 50%;
+    width: 35%; 
+    /* width: 50%; */
     z-index: 1;
 
     animation-name: floating;
@@ -101,3 +102,13 @@
     z-index: 0;
 }
 */
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        align-items: center;
+    }
+}
