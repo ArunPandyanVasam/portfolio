@@ -7,35 +7,65 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img src={getImageUrl("about/aboutImage.png")} alt="About Image" className={styles.aboutImage}/>
+        <img
+          src={getImageUrl("about/aboutImage.png")}
+          alt="About Image"
+          className={styles.aboutImage}
+        />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
-            <div className={styles.aboutItemText}> 
-              <h3>Frontend Developer</h3>
+            <img
+              src={getImageUrl("about/cursorIcon.png")}
+              alt="Projects Icon"
+            />
+            <div className={styles.aboutItemText}>
+              <h3>Project Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites.
+                Developed multiple projects, including a Python-based voice
+                recognition system (VoiceMatch-AI) and a responsive portfolio
+                website using Bootstrap, HTML, CSS, and JavaScript.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server Icon" />
+            <img
+              src={getImageUrl("about/cursorIcon.png")}
+              alt="Cybersecurity Icon"
+            />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Cybersecurity Enthusiast</h3>
               <p>
-                I have experience in developing fast and optimized back-end
-                systems and APIs.
+                Certified in Ethical Hacking and Cybersecurity, with knowledge
+                of security best practices, networking fundamentals, and
+                Unix-based systems.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/uiIcon.png")} alt="Cursor Icon" />
+            <img
+              src={getImageUrl("about/cursorIcon.png")}
+              alt="Cloud & DevOps Icon"
+            />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Cloud & DevOps Enthusiast</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well.
+                Familiar with cloud computing, AWS, and CI/CD pipelines using
+                GitHub Actions and Jenkins to streamline deployment workflows in
+                Agile environments.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img
+              src={getImageUrl("about/cursorIcon.png")}
+              alt="Volunteer Icon"
+            />
+            <div className={styles.aboutItemText}>
+              <h3>Community Contributor</h3>
+              <p>
+                Volunteered as a Web Developer for Telangana Canada Association,
+                optimizing a responsive website using React and JavaScript to
+                enhance accessibility and user experience.
               </p>
             </div>
           </li>
