@@ -1,6 +1,6 @@
 [
     {
-        "title": "Project A",
+        "title": "Legacy of Ankor",
         "imageSrc": "projects/legacyofankor.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
@@ -12,7 +12,7 @@
         "source": "https://github.com/ArunPandyanVasam/WebPage"
     },
     {
-        "title": "Project B",
+        "title": "Show Time Hub",
         "imageSrc": "projects/showtimehub.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
@@ -25,7 +25,7 @@
         "source": "https://github.com/ArunPandyanVasam/BookMyShow"
     },
     {
-        "title": "Project C",
+        "title": "Survey Spot",
         "imageSrc": "projects/surveyspot.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
@@ -37,15 +37,15 @@
         "source": "https://github.com/ArunPandyanVasam/InformationForm"
     },
     {
-        "title": "Project C",
-        "imageSrc": "projects/surveyspot.png",
+        "title": "Gadget Wave",
+        "imageSrc": "projects/gadgetwave.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
             "React",
             "Express",
             "Node"
         ],
-        "demo": "https://surveyspot.netlify.app/",
+        "demo": "https://gadgetwave.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/InformationForm"
     }
 ]
