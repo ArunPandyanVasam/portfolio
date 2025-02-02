@@ -13,7 +13,7 @@
     },
     {
         "title": "Project B",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/showtimehub.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
             "React",
