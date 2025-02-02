@@ -1,22 +1,26 @@
 [
-    {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
-      "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "history/netflix.png"
-    }
-  ]
-  
+  {
+    "role": "Web Developer",
+    "organisation": "Telangana Canada Association",
+    "startDate": "Sep, 2024",
+    "endDate": "Dec, 2024",
+    "experiences": [
+      "Developed and maintained the association's website",
+      "Improved UI/UX for a seamless user experience",
+      "Worked with modern web technologies such as HTML, CSS, JavaScript, and React"
+    ],
+    "imageSrc": "history/tca.png"
+  },
+  {
+    "role": "Team Lead",
+    "organisation": "Best Buy Distribution Centre",
+    "startDate": "May, 2024",
+    "endDate": "Dec, 2024",
+    "experiences": [
+      "Led a team in warehouse operations and logistics",
+      "Managed workflow efficiency and task delegation",
+      "Trained new team members for operational success"
+    ],
+    "imageSrc": "history/bestbuy.png"
+  }
+]
