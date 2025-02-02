@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
@@ -38,20 +38,6 @@ export const About = () => {
                 Certified in Ethical Hacking and Cybersecurity, with knowledge
                 of security best practices, networking fundamentals, and
                 Unix-based systems.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img
-              src={getImageUrl("about/cursorIcon.png")}
-              alt="Cloud & DevOps Icon"
-            />
-            <div className={styles.aboutItemText}>
-              <h3>Cloud & DevOps Enthusiast</h3>
-              <p>
-                Familiar with cloud computing, AWS, and CI/CD pipelines using
-                GitHub Actions and Jenkins to streamline deployment workflows in
-                Agile environments.
               </p>
             </div>
           </li>

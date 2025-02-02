@@ -8,8 +8,8 @@
             "Express",
             "Node"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://legacyofankor.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/WebPage"
     },
     {
         "title": "Project B",
@@ -21,8 +21,8 @@
             "Node",
             "Sass"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://showtimehub.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/BookMyShow"
     },
     {
         "title": "Project C",
@@ -33,7 +33,7 @@
             "Express",
             "Node"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://surveyspot.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/InformationForm"
     }
 ]
