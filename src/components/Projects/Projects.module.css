@@ -9,19 +9,17 @@
 }
 
 .title {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    padding-left: 3.6%;
+    
 }
 
 .subtitle {
-    font-size: 15px;
+    font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.75px;
-    text-transform: uppercase;
-    padding-left: 3.6%;
 }
 
 .projects {
