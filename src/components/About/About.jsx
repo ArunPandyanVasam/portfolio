@@ -21,9 +21,11 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Web Developer</h3>
               <p>
-                Developed and optimized a responsive website for Telangana
-                Canada Association using React and JavaScript, improving
-                accessibility and user experience.
+              An aspiring software developer with a diploma in Computer Programming.
+          Passionate about coding, problem-solving, and learning new
+          technologies. Skilled in Java, C, and Python, with hands-on experience
+          in web development and database management. Excited to grow and
+          contribute to real-world projects.
               </p>
             </div>
           </li>
