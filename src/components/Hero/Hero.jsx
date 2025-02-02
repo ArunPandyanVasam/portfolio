@@ -7,8 +7,8 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}> - HELLO
-        </h1>
+        {/* <h1 className={styles.title}> - HELLO
+        </h1> */}
         <p className={styles.description}>
           I am Arun, <br />a digital designer <br />& frontend developer based <br />in
           Somewhere.
@@ -17,11 +17,11 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <img
+      {/* <img
         src={getImageUrl("hero/heroImage.png")}
         alt="Hero Image"
         className={styles.heroImg}
-      />
+      /> */}
       <div className={StyleSheet.topBlur} />
       <div className={StyleSheet.bottomBlur} />
     </section>
