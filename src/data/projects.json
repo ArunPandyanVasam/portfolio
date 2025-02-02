@@ -18,8 +18,7 @@
         "skills": [
             "React",
             "Express",
-            "Node",
-            "Sass"
+            "Node"
         ],
         "demo": "https://showtimehub.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/BookMyShow"
