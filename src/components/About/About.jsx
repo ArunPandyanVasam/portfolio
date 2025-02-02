@@ -16,6 +16,20 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img
               src={getImageUrl("about/cursorIcon.png")}
+              alt="Web Developer Icon"
+            />
+            <div className={styles.aboutItemText}>
+              <h3>Web Developer</h3>
+              <p>
+                Developed and optimized a responsive website for Telangana
+                Canada Association using React and JavaScript, improving
+                accessibility and user experience.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img
+              src={getImageUrl("about/cursorIcon.png")}
               alt="Projects Icon"
             />
             <div className={styles.aboutItemText}>
@@ -38,20 +52,6 @@ export const About = () => {
                 Certified in Ethical Hacking and Cybersecurity, with knowledge
                 of security best practices, networking fundamentals, and
                 Unix-based systems.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img
-              src={getImageUrl("about/cursorIcon.png")}
-              alt="Volunteer Icon"
-            />
-            <div className={styles.aboutItemText}>
-              <h3>Community Contributor</h3>
-              <p>
-                Volunteered as a Web Developer for Telangana Canada Association,
-                optimizing a responsive website using React and JavaScript to
-                enhance accessibility and user experience.
               </p>
             </div>
           </li>
