@@ -1,7 +1,7 @@
 [
     {
         "title": "Project A",
-        "imageSrc": "projects/project.png",
+        "imageSrc": "projects/legacyofankor.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
             "React",
@@ -23,6 +23,18 @@
         ],
         "demo": "https://showtimehub.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/BookMyShow"
+    },
+    {
+        "title": "Project C",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": [
+            "React",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://surveyspot.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/InformationForm"
     },
     {
         "title": "Project C",
