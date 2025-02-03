@@ -15,7 +15,7 @@ export const Hero = () => {
           <br />React & cloud technologies, eager 
           <br />to learn and contribute.
         </p>
-        <a href="vasamarunpandyan@gmail.com" className={styles.contactBtn}>
+        <a href="arunpandyanv@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>

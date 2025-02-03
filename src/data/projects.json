@@ -4,9 +4,8 @@
         "imageSrc": "projects/legacyofankor.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "HTML",
+            "CSS"
         ],
         "demo": "https://legacyofankor.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/WebPage"
@@ -16,9 +15,8 @@
         "imageSrc": "projects/showtimehub.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "HTML",
+            "CSS"
         ],
         "demo": "https://showtimehub.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/BookMyShow"
@@ -28,23 +26,10 @@
         "imageSrc": "projects/surveyspot.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
-            "React",
-            "Express",
-            "Node"
+            "HTML",
+            "CSS"
         ],
         "demo": "https://surveyspot.netlify.app/",
-        "source": "https://github.com/ArunPandyanVasam/InformationForm"
-    },
-    {
-        "title": "Gadget Wave",
-        "imageSrc": "projects/gadgetwave.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": [
-            "React",
-            "Express",
-            "Node"
-        ],
-        "demo": "https://gadgetwave.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/InformationForm"
     }
 ]
