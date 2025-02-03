@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
+import resume from "../../assets/resume/ArunPandyanVasam.pdf"
 
 export const Hero = () => {
   return (
@@ -15,8 +16,8 @@ export const Hero = () => {
           <br />React & cloud technologies, eager 
           <br />to learn and contribute.
         </p>
-        <a href="/resume/ArunPandyanVasam.pdf" className={styles.contactBtn}>
-          Download Resume
+        <a href={resume} download='resume' className={styles.contactBtn}>
+          Contact Me
         </a>
       </div>
       {/* <img
