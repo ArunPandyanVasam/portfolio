@@ -15,8 +15,8 @@ export const Hero = () => {
           <br />React & cloud technologies, eager 
           <br />to learn and contribute.
         </p>
-        <a href="arunpandyanv@gmail.com" className={styles.contactBtn}>
-          Contact Me
+        <a href="/resume/ArunPandyanVasam.pdf" className={styles.contactBtn}>
+          Download Resume
         </a>
       </div>
       {/* <img
