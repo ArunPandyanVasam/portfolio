@@ -10,8 +10,10 @@ export const Hero = () => {
         {/* <h1 className={styles.title}> - HELLO
         </h1> */}
         <p className={styles.description}>
-          I am Arun, <br />a digital designer <br />& frontend developer based <br />in
-          Somewhere.
+          I am Arun, an entry-level 
+          <br />software developer skilled in Java, 
+          <br />React & cloud technologies, eager 
+          <br />to learn and contribute.
         </p>
         <a href="vasamarunpandyan@gmail.com" className={styles.contactBtn}>
           Contact Me
