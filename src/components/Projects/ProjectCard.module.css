@@ -1,99 +1,98 @@
-/* ProjectCard.module.css */
-.container {
-  display: flex;
-  flex-direction: column;
+.card {
+  min-width: 180px;  /* Reduced width */
+  max-width: 280px;  /* Limit the width of the card */
+  background-color: #222;
   border-radius: 10px;
-  color: var(--color-tertiary);
-  background: #002540;
-  padding: 18px 24px;
-  max-width: 350px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  color: white;
+  margin: 0 auto;
 }
 
-.container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 16px 20px rgba(0, 0, 0, 0.2);
+.card:hover {
+  transform: scale(1.05);
 }
 
-.image {
-  margin-bottom: 26px;
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-.title {
-  font-size: 20px;
+.cardTitle {
+  font-size: 1.2rem; /* Reduced font size */
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.description {
-  margin-top: 6px;
-  font-size: 18px;
-  font-weight: 400;
+.cardDescription {
+  font-size: 0.9rem;  /* Reduced font size */
+  color: #ccc;
+  margin-bottom: 10px;  /* Added margin for spacing */
 }
 
-.skills {
-  width: 100%;
-  margin-top: 14px;
+.cardSkills {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;  /* Reduced gap */
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0;
   list-style: none;
 }
 
-.skill {
-  font-size: 14px;
+.cardSkill {
+  font-size: 12px;  /* Reduced font size */
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 12px;
+  background: #444;
+  padding: 4px 10px;  /* Adjusted padding */
 }
 
-.links {
-  width: 100%;
-  margin-top: 26px;
+.cardLinks {
+  margin-top: 16px; /* Reduced margin-top */
   display: flex;
   justify-content: space-around;
 }
 
-.link {
+.cardLink {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 20px;
+  color: #fff;
+  font-size: 1rem;  /* Reduced font size */
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-primary);
-  padding: 6px 16px;
+  background: #002540;
+  padding: 5px 14px;  /* Adjusted padding */
   transition: background 0.3s ease;
 }
 
-.link:hover {
-  background: var(--color-secondary); /* Example of a hover color change */
+.cardLink:hover {
+  background: #003a61;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .container {
+  .card {
     max-width: 90%;
     margin: 0 auto;
   }
 
-  .title {
-    font-size: 18px;
+  .cardTitle {
+    font-size: 1.1rem;  /* Adjust font size for mobile */
   }
 
-  .description {
-    font-size: 16px;
+  .cardDescription {
+    font-size: 0.85rem;
   }
 
-  .skill {
-    font-size: 14px;
-    padding: 2px 8px;
+  .cardSkill {
+    font-size: 10px;  /* Further reduce font size on mobile */
+    padding: 2px 8px;  /* Reduce padding on mobile */
   }
 
-  .link {
-    font-size: 18px;
-    padding: 5px 12px;
+  .cardLink {
+    font-size: 0.9rem;  /* Adjust font size for mobile */
+    padding: 4px 10px;  /* Adjust padding on mobile */
   }
 }
