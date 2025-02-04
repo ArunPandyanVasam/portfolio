@@ -1,14 +1,16 @@
 [
   {
     "degree": "Diploma in Computer Programming",
-    "institution": "Sheridan College",
-    "graduationDate": "April, 2024",
+    "institution": "Sheridan College Institute of Technology and Advanced Learning",
+    "graduationStartDate": "January, 2023",
+    "graduationEndDate": "April, 2024",
     "description": "Studied object-oriented programming, data structures, and full-stack development."
   },
   {
-    "degree": "B.Tech in Civil Engineering",
+    "degree": "Bachelor of Technology in Civil Engineering",
     "institution": "Vignan Institute of Technology and Science",
-    "graduationDate": "September, 2021",
+    "graduationStartDate": "June, 2017",
+    "graduationEndDate": "July, 2021",
     "description": "Learned problem-solving, structural analysis, and technical applications in engineering."
   }
 ]

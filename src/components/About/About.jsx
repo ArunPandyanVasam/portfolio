@@ -22,13 +22,13 @@ export const About = () => {
           </p>
           <p>
             My expertise spans Java, C, Python, PL/SQL, Spring Boot, .NET,
-            React, Angular, MySQL and Shell Scripting. I am familiar with cloud computing and
-            DevOps.
+            React, Angular, MySQL and Shell Scripting. I am familiar with cloud
+            computing and DevOps.
           </p>
           <p>
             I’ve built projects like VoiceMatch-AI, a voice recognition system,
-            and contributed as a web developer for the Telangana Canada
-            Association to enhance accessibility and performance.
+            and developed a website for the Telangana Canada Association to
+            enhance accessibility and performance.
           </p>
           <p>
             I'm always eager to learn, innovate, and collaborate on impactful
