@@ -9,7 +9,7 @@
       "Improved UI/UX for a seamless user experience",
       "Worked with modern web technologies such as HTML, CSS, JavaScript, and React"
     ],
-    "imageSrc": "history/tca.png"
+    "imageSrc": "/assets/history/tca.png"
   },
   {
     "role": "Team Lead",
@@ -21,6 +21,6 @@
       "Managed workflow efficiency and task delegation",
       "Trained new team members for operational success"
     ],
-    "imageSrc": "history/bestbuy.png"
+    "imageSrc": "/assets/history/bestbuy.png"
   }
 ]

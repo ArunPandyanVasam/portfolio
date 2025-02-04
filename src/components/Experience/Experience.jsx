@@ -1,48 +1,52 @@
+// Experience.jsx
 import React from "react";
-
 import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
-import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+import experienceData from "../../data/experience.json";
+import educationData from "../../data/education.json";
 
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Skills & Experience</h2>
+      {/* <h2 className={styles.title}>Experience & Education</h2> */}
       <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+        {/* Left Column - Experience */}
+        <div className={styles.column}>
+          <h2 className={styles.sectionTitle}>Experience</h2>
+          {experienceData.map((exp, index) => (
+            <div key={index} className={styles.entry}>
+              <div className={styles.entryHeader}>
+                <img src={exp.imageSrc} alt={exp.role} className={styles.image} />
+                <div className={styles.entryInfo}>
+                  <h4 className={styles.role}>{exp.role}</h4>
+                  <p className={styles.organisation}>{exp.organisation}</p>
+                  <p className={styles.date}>
+                    {exp.startDate} - {exp.endDate}
+                  </p>
                 </div>
-                <p>{skill.title}</p>
               </div>
-            );
-          })}
+              <ul className={styles.list}>
+                {exp.experiences.map((item, idx) => (
+                  <li key={idx}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-        <ul className={styles.history}>
-          {history.map((historyItem, id) => {
-            return (
-              <li key={id} className={styles.historyItem}>
-                <img
-                  src={getImageUrl(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
-                />
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+
+        {/* Right Column - Education */}
+        <div className={styles.column}>
+          <h2 className={styles.sectionTitle}>Education</h2>
+          {educationData.map((edu, index) => (
+            <div key={index} className={styles.entry}>
+              <div className={styles.entryHeader}>
+                <h4 className={styles.degree}>{edu.degree}</h4>
+                <p className={styles.institution}>{edu.institution}</p>
+                <p className={styles.date}>{edu.graduationDate}</p>
+              </div>
+              <p className={styles.description}>{edu.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

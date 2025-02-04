@@ -1,0 +1,14 @@
+[
+  {
+    "degree": "Diploma in Computer Programming",
+    "institution": "Sheridan College",
+    "graduationDate": "April, 2024",
+    "description": "Studied object-oriented programming, data structures, and full-stack development."
+  },
+  {
+    "degree": "B.Tech in Civil Engineering",
+    "institution": "Vignan Institute of Technology and Science",
+    "graduationDate": "September, 2021",
+    "description": "Learned problem-solving, structural analysis, and technical applications in engineering."
+  }
+]
