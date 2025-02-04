@@ -1,93 +1,82 @@
 @import "../../vars.css";
 
+/* Container for About Section */
 .container {
-  position: relative;
-  /* background-color: rgba(12, 12, 12, 0.6); */
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-align: center;
+  margin: 100px auto;
+  max-width: 900px;
 }
 
+/* Title */
 .title {
-  /* color: var(--color-text); */
-  color: #000000;
-  font-size: 45px;
+  color: #000;
+  font-size: 40px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-.content {
+/* Card Container */
+.card {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.aboutImage {
-  width: 15%;
-}
-
-.aboutItems {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  list-style: none;
-  /* padding: 25px; */
-  /* background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  ); */
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
+  padding: 30px;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.aboutItem:hover {
-    background-size: 100% 100%;
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-.aboutItem h3 {
-    font-size: 25px;
-    font-weight: 600;
+/* Image inside the Card */
+.aboutImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
 }
 
-.aboutItem p {
-    font-size: 23px;
+/* Text Content */
+.aboutContent {
+  text-align: left;
+  flex: 1;
 }
 
-@media screen and (max-width: 830px) {
-    .container {
-        background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
-    }
+.aboutContent h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
 
-    .content {
-        flex-direction: column;
-    }
+.aboutContent p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
 
-    .aboutImage {
-        display: none;
-    }
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-    .aboutItems {
-        margin-top: 29px;
-    }
+  .aboutImage {
+    width: 120px;
+    height: 120px;
+  }
 
-    .aboutItem {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .aboutContent {
+    text-align: center;
+  }
 }

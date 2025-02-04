@@ -6,30 +6,31 @@ export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
-      <div className={styles.content}>
-        {/* <img
+      <div className={styles.card}>
+        <img
           src={getImageUrl("about/aboutImage.png")}
-          alt="About Image"
+          alt="Arun Pandyan Vasam"
           className={styles.aboutImage}
-        /> */}
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            {/* <img
-              src={getImageUrl("about/cursorIcon.png")}
-              alt="Web Developer Icon"
-            /> */}
-            <div className={styles.aboutItemText}>
-              {/* <h3>SDE</h3> */}
-              <p>
-                An aspiring software developer with a diploma in Computer
-                Programming. Passionate about coding, problem-solving, and
-                learning new technologies. Skilled in Java, C, and Python, with
-                hands-on experience in web development and database management.
-                Excited to grow and contribute to real-world projects.
-              </p>
-            </div>
-          </li>
-        </ul>
+        />
+        <div className={styles.aboutContent}>
+          <h3>Software Developer</h3>
+          <p>
+            Hi, I'm Arun Pandyan Vasam, a passionate Software Developer based in Brampton, ON. 
+            With a diploma in Computer Programming from Sheridan College, I have a strong foundation in 
+            object-oriented programming, data structures, and algorithms. 
+          </p>
+          <p>
+            My expertise spans Java, C, Python, PL/SQL, Spring Boot, .NET, React, and Angular. 
+            I also have hands-on experience with cloud computing, DevOps, and Agile workflows.
+          </p>
+          <p>
+            I’ve built projects like VoiceMatch-AI, a voice recognition system, and contributed as a web developer 
+            for the Telangana Canada Association to enhance accessibility and performance.
+          </p>
+          <p>
+            I'm always eager to learn, innovate, and collaborate on impactful projects.
+          </p>
+        </div>
       </div>
     </section>
   );
