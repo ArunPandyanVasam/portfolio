@@ -11,13 +11,19 @@ export const Hero = () => {
         {/* <h1 className={styles.title}> - HELLO
         </h1> */}
         <p className={styles.description}>
-          I am Arun, an entry-level 
-          <br />software developer skilled in Java, 
-          <br />React & cloud technologies, eager 
-          <br />to learn and contribute.
+          I am Arun, an entry-level
+          <br />
+          software developer skilled in Java,
+          <br />
+          React & cloud technologies, eager
+          <br />
+          to learn and contribute.
         </p>
-        <a href={resume} download='resume' className={styles.contactBtn}>
+        {/* <a href={resume} download='resume' className={styles.contactBtn}>
           Download Resume
+        </a> */}
+        <a href="mailto:arunpandyanv@gmail.com" className={styles.contactBtn}>
+          Contact Me
         </a>
       </div>
       {/* <img
