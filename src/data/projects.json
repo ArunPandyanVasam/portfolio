@@ -1,13 +1,13 @@
 [
     {
         "title": "TodoList",
-        "imageSrc": "projects/legacyofankor.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "imageSrc": "projects/todoList.png",
+        "description": "This is a TodoList made to learn the latest languages by building an app.",
         "skills": [
             "MongoDB",
             "Express",
             "React",
-            "Node. js"
+            "Node.js"
         ],
         "demo": "https://keeptracklist.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/todoList"
