@@ -2,7 +2,7 @@
     {
         "title": "TodoList",
         "imageSrc": "projects/todoList.png",
-        "description": "This is a TodoList made to learn the latest languages by building an app.",
+        "description": "This is a TodoList made to learn the latest languages.",
         "skills": [
             "MongoDB",
             "Express",
@@ -13,20 +13,57 @@
         "source": "https://github.com/ArunPandyanVasam/todoList"
     },
     {
-        "title": "Show Time Hub",
-        "imageSrc": "projects/showtimehub.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "title": "Multiplication Game",
+        "imageSrc": "projects/multiplicationApp.png",
+        "description": "This is a Multiplication Game, made to learn the latest languages.",
         "skills": [
             "HTML",
-            "CSS"
+            "CSS",
+            "JavaScript"
         ],
-        "demo": "https://showtimehub.netlify.app/",
+        "demo": "https://gamemultiplication.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/Multiplication-App"
+    },
+    {
+        "title": "Conversion Calculator",
+        "imageSrc": "projects/conversioncalculator.png",
+        "description": "This is a Conversion Calculator, made to learn the latest languages.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "https://conversioncalculatorall.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/Multiplication-App"
+    },
+    {
+        "title": "Gadget Store",
+        "imageSrc": "projects/gadgets.png",
+        "description": "This is a Gadget site, made to learn the latest languages.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "https://gadgetwave.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/BookMyShow"
     },
     {
-        "title": "Survey Spot",
+        "title": "Form Validation",
+        "imageSrc": "projects/validationform.png",
+        "description": "This is a Form Validation, made to learn the latest languages.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "https://checkformvalidation.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/BookMyShow"
+    },
+    {
+        "title": "Information Form",
         "imageSrc": "projects/surveyspot.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
+        "description": "This is a Information form, made to learn the latest languages.",
         "skills": [
             "HTML",
             "CSS"
