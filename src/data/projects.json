@@ -1,14 +1,16 @@
 [
     {
-        "title": "Legacy of Ankor",
+        "title": "TodoList",
         "imageSrc": "projects/legacyofankor.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": [
-            "HTML",
-            "CSS"
+            "MongoDB",
+            "Express",
+            "React",
+            "Node. js"
         ],
-        "demo": "https://legacyofankor.netlify.app/",
-        "source": "https://github.com/ArunPandyanVasam/WebPage"
+        "demo": "https://keeptracklist.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/todoList"
     },
     {
         "title": "Show Time Hub",
