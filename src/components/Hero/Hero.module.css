@@ -114,5 +114,6 @@
   .aboutImage {
     margin-top: 30px; /* Adds some space above the image in smaller screens */
     max-width: 70%; /* Adjusted for smaller screens */
+    margin-bottom: 15px;
   }
 }
