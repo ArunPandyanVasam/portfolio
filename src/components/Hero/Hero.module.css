@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 120px; /* Adjusted to prevent overlap with Navbar */
+  margin-top: 210px; /* Adjusted to prevent overlap with Navbar */
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -43,7 +43,7 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
-        margin-top: 100px; /* Adjusted for better spacing on smaller screens */
+        margin-top: 165px; /* Adjusted for better spacing on smaller screens */
     }
 
     .content {
