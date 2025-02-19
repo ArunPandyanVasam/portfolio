@@ -2,7 +2,7 @@
     {
         "title": "TodoList",
         "imageSrc": "projects/todoList.png",
-        "description": "This is a TodoList made to learn the latest languages.",
+        "description": "This is a To-Do List application built to learn and apply the latest web technologies. It helps users efficiently manage tasks with a clean, interactive, and user-friendly interface.",
         "skills": [
             "MongoDB",
             "Express",
@@ -15,7 +15,7 @@
     {
         "title": "Multiplication Game",
         "imageSrc": "projects/multiplicationApp.png",
-        "description": "This is a Multiplication Game, made to learn the latest languages.",
+        "description": "This is a Multiplication Game created to learn and apply the latest web technologies. It offers an interactive and engaging way to practice multiplication while exploring modern development techniques.",
         "skills": [
             "HTML",
             "CSS",
@@ -27,7 +27,7 @@
     {
         "title": "Conversion Calculator",
         "imageSrc": "projects/conversioncalculator.png",
-        "description": "This is a Conversion Calculator, made to learn the latest languages.",
+        "description": "This is a Conversion Calculator designed to learn and apply the latest web technologies. It provides accurate and user-friendly unit conversions with a modern interface.",
         "skills": [
             "HTML",
             "CSS",
@@ -39,7 +39,7 @@
     {
         "title": "Gadget Store",
         "imageSrc": "projects/gadgets.png",
-        "description": "This is a Gadget site, made to learn the latest languages.",
+        "description": "This is a Gadget Site built to explore and implement the latest web technologies. It showcases modern design, responsiveness, and interactive features to enhance user experience.",
         "skills": [
             "HTML",
             "CSS",
@@ -51,7 +51,7 @@
     {
         "title": "Form Validation",
         "imageSrc": "projects/validationform.png",
-        "description": "This is a Form Validation, made to learn the latest languages.",
+        "description": "This is a Form Validation project built to explore and implement modern web technologies. It showcases real-time input validation using the latest languages and best practices to enhance user experience and data accuracy.",
         "skills": [
             "HTML",
             "CSS",
@@ -63,7 +63,7 @@
     {
         "title": "Information Form",
         "imageSrc": "projects/surveyspot.png",
-        "description": "This is a Information form, made to learn the latest languages.",
+        "description": "This is an Information Form project created to learn and apply the latest web technologies. It features real-time validation and a user-friendly interface to ensure accurate data entry and a smooth user experience.",
         "skills": [
             "HTML",
             "CSS"
