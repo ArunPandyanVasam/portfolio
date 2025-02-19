@@ -23,7 +23,7 @@ export const ProjectCard = ({
       </ul>
       <div className={styles.cardLinks}>
         <a href={demo} className={styles.cardLink} target="_blank">
-          Demo
+          See It in Action
         </a>
         {/* <a href={source} className={styles.cardLink} target="_blank">
           Source

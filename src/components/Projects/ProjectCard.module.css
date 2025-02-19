@@ -1,17 +1,17 @@
 .card {
   min-width: 180px;  /* Reduced width */
-  max-width: 580px;  /* Limit the width of the card */
-  background-color: #222;
+  max-width: 600px;  /* Limit the width of the card */
+  background-color: #9da993;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
   transition: transform 0.3s ease-in-out;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0 auto;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .cardImage {
@@ -29,7 +29,7 @@
 
 .cardDescription {
   font-size: 0.9rem;  /* Reduced font size */
-  color: #ccc;
+  color: #000000;
   margin-bottom: 10px;  /* Added margin for spacing */
 }
 
@@ -46,7 +46,7 @@
   font-size: 12px;  /* Reduced font size */
   font-weight: 400;
   border-radius: 100px;
-  background: #444;
+  background: e3e8e9;
   padding: 4px 10px;  /* Adjusted padding */
 }
 
@@ -61,14 +61,15 @@
   color: #fff;
   font-size: 1rem;  /* Reduced font size */
   font-weight: 600;
-  border-radius: 100px;
-  background: #002540;
+  /* border-radius: 100px; */
+  background: #000000;
   padding: 5px 14px;  /* Adjusted padding */
   transition: background 0.3s ease;
 }
 
 .cardLink:hover {
-  background: #003a61;
+  color: rgb(0, 0, 0);
+  background: #870a30;
 }
 
 /* Responsive Design */
