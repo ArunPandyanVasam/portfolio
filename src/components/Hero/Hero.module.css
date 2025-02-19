@@ -1,31 +1,29 @@
-@import "../../vars.css";
-
 .container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 210px; /* Adjusted to prevent overlap with Navbar */
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: var(--color-text);
-  z-index: 1;
-}
-
-.description {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 210px; /* Adjusted to prevent overlap with Navbar */
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+  }
+  
+  .description {
     font-size: 25px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
-}
-
-.contactBtn {
+  }
+  
+  .contactBtn {
     text-decoration: none;
     border: 2px solid black;
     background-color: var(--color-bg);
@@ -33,21 +31,35 @@
     font-size: 15px;
     padding: 17px 26px;
     letter-spacing: 1.75px;
-}
-
-.contactBtn:hover {
+  }
+  
+  .contactBtn:hover {
     color: var(--color-tertiary);
     background-color: var(--color-bgb);
-}
-
-@media screen and (max-width: 830px) {
+  }
+  
+  .aboutImage {
+    max-width: 40%; /* Makes the image smaller */
+    height: auto;
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    margin-left: 20px; /* Adds space between the image and content */
+    z-index: 0; /* Keeps the image behind the text content */
+  }
+  
+  @media screen and (max-width: 830px) {
     .container {
-        flex-direction: column-reverse;
-        margin-top: 165px; /* Adjusted for better spacing on smaller screens */
+      flex-direction: column-reverse;
+      margin-top: 165px; /* Adjusted for better spacing on smaller screens */
     }
-
+  
     .content {
-        align-items: center;
-        text-align: center;
+      align-items: center;
+      text-align: center;
     }
-}
+  
+    .aboutImage {
+      margin-top: 30px; /* Adds some space above the image in smaller screens */
+      max-width: 70%; /* Adjusted for smaller screens */
+    }
+  }
+  

@@ -21,8 +21,13 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+      <img
+        src={getImageUrl("about/aboutImage.png")}
+        alt="Arun Pandyan Vasam"
+        className={styles.aboutImage}
+      />
+      {/* <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} /> */}
     </section>
   );
 };
