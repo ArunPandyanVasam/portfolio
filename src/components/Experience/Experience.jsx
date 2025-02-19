@@ -7,7 +7,6 @@ export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <div className={styles.content}>
-        {/* Left Column - Experience */}
         <div className={styles.column}>
           <h2 className={styles.sectionTitle}>Experience</h2>
           {experienceData.map((exp, index) => (

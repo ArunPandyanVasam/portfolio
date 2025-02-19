@@ -56,15 +56,15 @@
 }
 
 .menuItems a {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
-  color: var(--color-text);
+  color:#000000;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .menuItems a:hover {
-  color: var(--color-primary);
+  color: #4d0011;
 }
 
 /* Responsive Menu for Mobile */
