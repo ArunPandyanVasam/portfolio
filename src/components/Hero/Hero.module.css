@@ -30,6 +30,7 @@
 /* Heading Styling */
 .heading {
   font-size: 30px;
+  font-weight: 500;
   font-family: var(--font-roboto);
   margin-bottom: 10px;
   color: var(--color-primary); /* Unique color for the heading */
@@ -53,8 +54,8 @@
 .contactBtn {
   text-decoration: none;
   border: 2px solid black;
-  background-color: var(--color-bg);
-  color: var(--color-text);
+  color: black;
+  background-color: white;
   font-size: 18px;
   padding: 18px 30px;
   letter-spacing: 1.5px;
@@ -64,8 +65,8 @@
 }
 
 .contactBtn:hover {
-  color: var(--color-tertiary);
-  background-color: var(--color-bgb);
+  background-color: black;
+  color: white;
 }
 
 /* Image Styling */
