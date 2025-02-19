@@ -1,65 +1,117 @@
+@import "../../vars.css"; /* Assuming your vars.css contains color and font variables */
+
+/* Container Styling */
 .container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 210px; /* Adjusted to prevent overlap with Navbar */
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 210px; /* Adjusted to prevent overlap with Navbar */
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Content Styling */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+  max-width: 600px; /* Limit the width of the content for better readability */
+  padding: 20px; /* Adds padding for better spacing around the content */
+  background-color: var(--color-bg-light); /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-align: left; /* Align text to the left for larger screens */
+}
+
+/* Heading Styling */
+.heading {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  margin-bottom: 10px;
+  color: var(--color-primary); /* Unique color for the heading */
+}
+
+/* Name Styling */
+.name {
+  font-size: 24px;
+  font-family: var(--font-roboto);
+  margin-bottom: 20px; /* Space between the text and the button */
+  line-height: 1.6; /* Improved line spacing for readability */
+  color: var(--color-text-dark); /* Slightly darker text for better contrast */
+}
+
+.highlightName {
+  color: var(--color-highlight); /* Unique color for your name */
+  font-weight: bold;
+}
+
+/* Contact Button Styling */
+.contactBtn {
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: 18px;
+  padding: 18px 30px;
+  letter-spacing: 1.5px;
+  border-radius: 5px; /* Rounded corners for the button */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  margin-top: 20px; /* Adds space between the description and the button */
+}
+
+.contactBtn:hover {
+  color: var(--color-tertiary);
+  background-color: var(--color-bgb);
+}
+
+/* Image Styling */
+.aboutImage {
+  max-width: 40%; /* Makes the image smaller */
+  height: auto;
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  margin-left: 20px; /* Adds space between the image and content */
+  z-index: 0; /* Keeps the image behind the text content */
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    margin-top: 165px; /* Adjusted for better spacing on smaller screens */
   }
-  
+
   .content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: var(--color-text);
-    z-index: 1;
+    align-items: center;
+    text-align: center;
+    max-width: 100%; /* Full width on smaller screens */
+    padding: 15px; /* Adjust padding on mobile */
   }
-  
-  .description {
-    font-size: 25px;
-    font-family: var(--font-roboto);
-    margin-bottom: 52px;
+
+  .heading {
+    font-size: 28px; /* Slightly smaller font for mobile */
+    margin-bottom: 10px;
   }
-  
+
+  .name {
+    font-size: 20px; /* Slightly smaller font for mobile */
+    margin-bottom: 15px;
+  }
+
+  .highlightName {
+    font-size: 22px;
+  }
+
   .contactBtn {
-    text-decoration: none;
-    border: 2px solid black;
-    background-color: var(--color-bg);
-    color: var(--color-text);
-    font-size: 15px;
-    padding: 17px 26px;
-    letter-spacing: 1.75px;
+    padding: 15px 25px; /* Adjust button size for mobile */
+    font-size: 16px;
   }
-  
-  .contactBtn:hover {
-    color: var(--color-tertiary);
-    background-color: var(--color-bgb);
-  }
-  
+
   .aboutImage {
-    max-width: 40%; /* Makes the image smaller */
-    height: auto;
-    object-fit: cover; /* Ensures the image fills the container without distortion */
-    margin-left: 20px; /* Adds space between the image and content */
-    z-index: 0; /* Keeps the image behind the text content */
+    margin-top: 30px; /* Adds some space above the image in smaller screens */
+    max-width: 70%; /* Adjusted for smaller screens */
   }
-  
-  @media screen and (max-width: 830px) {
-    .container {
-      flex-direction: column-reverse;
-      margin-top: 165px; /* Adjusted for better spacing on smaller screens */
-    }
-  
-    .content {
-      align-items: center;
-      text-align: center;
-    }
-  
-    .aboutImage {
-      margin-top: 30px; /* Adds some space above the image in smaller screens */
-      max-width: 70%; /* Adjusted for smaller screens */
-    }
-  }
-  
+}
