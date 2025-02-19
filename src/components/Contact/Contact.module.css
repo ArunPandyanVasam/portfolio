@@ -49,11 +49,22 @@
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 1.5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link a:hover {
+    color: var(--color-primary);
+    transform: scale(1.05);
 }
 
 .link img {
     width: 30px;
     height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.link img:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 830px) {
@@ -70,5 +81,10 @@
 
     .link a {
         font-size: 18px;
+    }
+
+    .link img {
+        width: 25px;
+        height: 25px;
     }
 }
