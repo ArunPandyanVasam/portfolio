@@ -1,15 +1,16 @@
-@import "../../vars.css";
+@import "../../vars.css"; /* Assuming your vars.css contains color and font variables */
 
 /* Container for About Section */
 .container {
   text-align: center;
   margin: 100px auto;
   max-width: 1080px;
+  padding: 0 20px; /* Added padding for mobile */
 }
 
 /* Title */
 .title {
-  color: #000;
+  color: var(--color-text); /* Use a variable for consistency */
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -42,6 +43,7 @@
   height: 250px;
   object-fit: cover;
   border: 3px solid #ddd;
+  border-radius: 10px; /* Slight rounded corners for the image */
 }
 
 /* Text Content */
@@ -62,6 +64,7 @@
   line-height: 1.6;
   color: #141414;
   padding: 3px;
+  margin: 0; /* Remove extra margin */
 }
 
 /* Responsive Design */
@@ -69,6 +72,7 @@
   .card {
     flex-direction: column;
     padding: 20px;
+    gap: 30px; /* Reduce gap between image and text on mobile */
   }
 
   .aboutImage {
@@ -78,5 +82,9 @@
 
   .aboutContent {
     text-align: center;
+  }
+
+  .aboutContent p {
+    font-size: 16px; /* Slightly smaller text for mobile */
   }
 }
