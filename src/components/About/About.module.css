@@ -53,14 +53,14 @@
 .aboutContent h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #333;
+  color: #000000;
   margin-bottom: 10px;
 }
 
 .aboutContent p {
   font-size: 18px;
   line-height: 1.6;
-  color: #555;
+  color: #141414;
   padding: 3px;
 }
 
