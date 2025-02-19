@@ -1,28 +1,28 @@
 @import "../../vars.css";
 
 
+/* Projects Section */
 .container {
     margin-top: 76px;
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
-}
-
-.title {
+  }
+  
+  .title {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    
-}
-
-.subtitle {
+  }
+  
+  .subtitle {
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.75px;
-}
-
-.projects {
+  }
+  
+  .projects {
     margin-top: 37px;
     display: flex;
     flex-direction: row;
@@ -31,4 +31,4 @@
     justify-content: center;
     gap: 15px;
     width: 100%;
-}
+  }

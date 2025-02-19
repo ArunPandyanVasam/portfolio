@@ -47,7 +47,7 @@
   font-size: 12px;  /* Reduced font size */
   font-weight: 400;
   border-radius: 100px;
-  background: e3e8e9;
+  background: #e3e8e9;
   padding: 4px 10px;  /* Adjusted padding */
 }
 
@@ -62,7 +62,6 @@
   color: #fff;
   font-size: 1rem;  /* Reduced font size */
   font-weight: 600;
-  /* border-radius: 100px; */
   background: #000000;
   padding: 5px 14px;  /* Adjusted padding */
   transition: background 0.3s ease;
@@ -75,6 +74,24 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 40px;
+  }
+
+  .projects {
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .card {
     max-width: 90%;
     margin: 0 auto;
@@ -96,5 +113,38 @@
   .cardLink {
     font-size: 0.9rem;  /* Adjust font size for mobile */
     padding: 4px 10px;  /* Adjust padding on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+
+  .card {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .cardTitle {
+    font-size: 1rem;  /* Adjust font size for mobile */
+  }
+
+  .cardDescription {
+    font-size: 0.8rem;
+  }
+
+  .cardSkill {
+    font-size: 9px;  /* Further reduce font size on mobile */
+    padding: 2px 6px;  /* Reduce padding more */
+  }
+
+  .cardLink {
+    font-size: 0.85rem;  /* Adjust font size for mobile */
+    padding: 4px 8px;  /* Adjust padding more */
   }
 }
