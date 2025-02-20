@@ -1,15 +1,15 @@
 [
   {
-    "role": "Web Developer",
-    "organisation": "Telangana Canada Association",
-    "startDate": "Sep, 2024",
-    "endDate": "Dec, 2024",
+    "role": "WordPress Development Intern",
+    "organisation": "My Worthy Home",
+    "startDate": "Jan, 2025",
+    "endDate": "Present",
     "experiences": [
-      "Developed and maintained the association's website",
-      "Improved UI/UX for a seamless user experience",
-      "Worked with modern web technologies such as HTML, CSS, JavaScript, and React"
+      "Developed and customized WordPress themes and plugins using PHP, JavaScript, and CSS to enhance website functionality",
+      "Integrated REST APIs to improve website performance and user experience",
+      "Implemented WordPress security best practices to ensure data protection and site stability"
     ],
-    "imageSrc": "/assets/history/tca.png"
+    "imageSrc": "/assets/history/myworthyhome.png"
   },
   {
     "role": "Team Lead",
