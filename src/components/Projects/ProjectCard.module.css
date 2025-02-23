@@ -1,6 +1,6 @@
 .card {
-  min-width: 180px;  /* Reduced width */
-  max-width: 600px;  /* Limit the width of the card */
+  min-width: 180px;  
+  max-width: 600px;  
   background-color: #9da993;
   border-radius: 10px;
   padding: 15px;
@@ -22,21 +22,21 @@
 }
 
 .cardTitle {
-  font-size: 1.2rem; /* Reduced font size */
+  font-size: 1.2rem; 
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 .cardDescription {
-  font-size: 0.9rem;  /* Reduced font size */
+  font-size: 0.9rem;  
   color: #000000;
-  margin-bottom: 10px;  /* Added margin for spacing */
+  margin-bottom: 10px;  
   padding: 0% 5%;
 }
 
 .cardSkills {
   display: flex;
-  gap: 8px;  /* Reduced gap */
+  gap: 8px;  
   justify-content: center;
   margin-top: 10px;
   padding: 0;
@@ -44,15 +44,15 @@
 }
 
 .cardSkill {
-  font-size: 12px;  /* Reduced font size */
+  font-size: 12px;  
   font-weight: 400;
   border-radius: 100px;
   background: #e3e8e9;
-  padding: 4px 10px;  /* Adjusted padding */
+  padding: 4px 10px;  
 }
 
 .cardLinks {
-  margin-top: 16px; /* Reduced margin-top */
+  margin-top: 16px; 
   display: flex;
   justify-content: space-around;
 }
@@ -60,10 +60,10 @@
 .cardLink {
   text-decoration: none;
   color: #fff;
-  font-size: 1rem;  /* Reduced font size */
+  font-size: 1rem;  
   font-weight: 600;
   background: #000000;
-  padding: 5px 14px;  /* Adjusted padding */
+  padding: 5px 14px;  
   transition: background 0.3s ease;
 }
 
@@ -72,7 +72,7 @@
   background: #870a30;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .container {
     margin-left: 5%;
@@ -98,7 +98,7 @@
   }
 
   .cardTitle {
-    font-size: 1.1rem;  /* Adjust font size for mobile */
+    font-size: 1.1rem; 
   }
 
   .cardDescription {
@@ -106,13 +106,13 @@
   }
 
   .cardSkill {
-    font-size: 10px;  /* Further reduce font size on mobile */
-    padding: 2px 8px;  /* Reduce padding on mobile */
+    font-size: 10px;  
+    padding: 2px 8px; 
   }
 
   .cardLink {
-    font-size: 0.9rem;  /* Adjust font size for mobile */
-    padding: 4px 10px;  /* Adjust padding on mobile */
+    font-size: 0.9rem; 
+    padding: 4px 10px;  
   }
 }
 
@@ -131,7 +131,7 @@
   }
 
   .cardTitle {
-    font-size: 1rem;  /* Adjust font size for mobile */
+    font-size: 1rem;  
   }
 
   .cardDescription {
@@ -139,12 +139,12 @@
   }
 
   .cardSkill {
-    font-size: 9px;  /* Further reduce font size on mobile */
-    padding: 2px 6px;  /* Reduce padding more */
+    font-size: 9px;  
+    padding: 2px 6px;  
   }
 
   .cardLink {
-    font-size: 0.85rem;  /* Adjust font size for mobile */
-    padding: 4px 8px;  /* Adjust padding more */
+    font-size: 0.85rem;  
+    padding: 4px 8px;  
   }
 }

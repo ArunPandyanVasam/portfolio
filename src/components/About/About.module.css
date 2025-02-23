@@ -1,16 +1,16 @@
-@import "../../vars.css"; /* Assuming your vars.css contains color and font variables */
+@import "../../vars.css";
 
-/* Container for About Section */
+
 .container {
   text-align: center;
   margin: 100px auto;
   max-width: 1080px;
-  padding: 0 20px; /* Added padding for mobile */
+  padding: 0 20px; 
 }
 
-/* Title */
+
 .title {
-  color: var(--color-text); /* Use a variable for consistency */
+  color: var(--color-text); 
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -18,7 +18,7 @@
   margin-bottom: 30px;
 }
 
-/* Card Container */
+
 .card {
   display: flex;
   flex-direction: row;
@@ -31,22 +31,22 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover Effect */
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Image inside the Card */
+
 .aboutImage {
   width: 250px;
   height: 250px;
   object-fit: cover;
   border: 3px solid #ddd;
-  border-radius: 10px; /* Slight rounded corners for the image */
+  border-radius: 10px; 
 }
 
-/* Text Content */
+
 .aboutContent {
   text-align: left;
   flex: 1;
@@ -64,15 +64,15 @@
   line-height: 1.6;
   color: #141414;
   padding: 3px;
-  margin: 0; /* Remove extra margin */
+  margin: 0; 
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
   .card {
     flex-direction: column;
     padding: 20px;
-    gap: 30px; /* Reduce gap between image and text on mobile */
+    gap: 30px; 
   }
 
   .aboutImage {
@@ -85,6 +85,6 @@
   }
 
   .aboutContent p {
-    font-size: 16px; /* Slightly smaller text for mobile */
+    font-size: 16px; 
   }
 }

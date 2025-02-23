@@ -48,7 +48,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Styling for menu items */
 .menuItems {
   display: flex;
   gap: 47px;
@@ -67,7 +66,6 @@
   color: #4d0011;
 }
 
-/* Responsive Menu for Mobile */
 @media screen and (max-width: 830px) {
   .menuBtn {
     display: flex;

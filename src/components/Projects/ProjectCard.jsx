@@ -25,9 +25,6 @@ export const ProjectCard = ({
         <a href={demo} className={styles.cardLink} target="_blank">
           See It in Action
         </a>
-        {/* <a href={source} className={styles.cardLink} target="_blank">
-          Source
-        </a> */}
       </div>
     </div>
   );

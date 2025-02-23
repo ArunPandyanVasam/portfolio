@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-import resume from "../../Docs/resume/ArunPandyanVasam.pdf";
 
 export const Hero = () => {
   return (

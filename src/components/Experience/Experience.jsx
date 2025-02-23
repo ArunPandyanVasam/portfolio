@@ -34,7 +34,6 @@ export const Experience = () => {
           ))}
         </div>
 
-        {/* Right Column - Education */}
         <div className={styles.column}>
           <h2 className={styles.sectionTitle}>Education</h2>
           {educationData.map((edu, index) => (

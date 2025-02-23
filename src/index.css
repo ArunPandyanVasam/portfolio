@@ -5,7 +5,7 @@
     font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
 }
 html {
-    scroll-padding-top: 180px; /* Adjust this based on your navbar height */
+    scroll-padding-top: 180px; 
 }
 
 
@@ -13,7 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Custom Scrollbars (Optional) */
+
 ::-webkit-scrollbar {
     width: 8px;
 }

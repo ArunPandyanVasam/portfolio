@@ -1,56 +1,54 @@
-@import "../../vars.css"; /* Assuming your vars.css contains color and font variables */
+@import "../../vars.css"; 
 
-/* Container Styling */
+
 .container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 210px; /* Adjusted to prevent overlap with Navbar */
+  margin-top: 210px; 
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-/* Content Styling */
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
-  max-width: 600px; /* Limit the width of the content for better readability */
-  padding: 20px; /* Adds padding for better spacing around the content */
-  background-color: var(--color-bg-light); /* Light background for contrast */
-  border-radius: 10px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  text-align: left; /* Align text to the left for larger screens */
+  max-width: 600px; 
+  padding: 20px; 
+  background-color: var(--color-bg-light); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: left; 
 }
 
-/* Heading Styling */
 .heading {
   font-size: 30px;
   font-weight: 500;
   font-family: var(--font-roboto);
   margin-bottom: 10px;
-  color: var(--color-primary); /* Unique color for the heading */
+  color: var(--color-primary); 
 }
 
-/* Name Styling */
+
 .name {
   font-size: 24px;
   font-family: var(--font-roboto);
-  margin-bottom: 20px; /* Space between the text and the button */
-  line-height: 1.6; /* Improved line spacing for readability */
-  color: var(--color-text-dark); /* Slightly darker text for better contrast */
+  margin-bottom: 20px; 
+  line-height: 1.6; 
+  color: var(--color-text-dark); 
 }
 
 .highlightName {
-  color: var(--color-highlight); /* Unique color for your name */
+  color: var(--color-highlight); 
   font-weight: bold;
 }
 
-/* Contact Button Styling */
 .contactBtn {
   text-decoration: none;
   border: 2px solid black;
@@ -59,9 +57,9 @@
   font-size: 18px;
   padding: 18px 30px;
   letter-spacing: 1.5px;
-  border-radius: 5px; /* Rounded corners for the button */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
-  margin-top: 20px; /* Adds space between the description and the button */
+  border-radius: 5px; 
+  transition: background-color 0.3s, color 0.3s; 
+  margin-top: 20px; 
 }
 
 .contactBtn:hover {
@@ -69,36 +67,34 @@
   color: white;
 }
 
-/* Image Styling */
 .aboutImage {
-  max-width: 40%; /* Makes the image smaller */
+  max-width: 40%; 
   height: auto;
-  object-fit: cover; /* Ensures the image fills the container without distortion */
-  margin-left: 20px; /* Adds space between the image and content */
-  z-index: 0; /* Keeps the image behind the text content */
+  object-fit: cover; 
+  margin-left: 20px; 
+  z-index: 0; 
 }
 
-/* Mobile Styling */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
-    margin-top: 165px; /* Adjusted for better spacing on smaller screens */
+    margin-top: 165px; 
   }
 
   .content {
     align-items: center;
     text-align: center;
-    max-width: 100%; /* Full width on smaller screens */
-    padding: 15px; /* Adjust padding on mobile */
+    max-width: 100%; 
+    padding: 15px; 
   }
 
   .heading {
-    font-size: 28px; /* Slightly smaller font for mobile */
+    font-size: 28px; 
     margin-bottom: 10px;
   }
 
   .name {
-    font-size: 20px; /* Slightly smaller font for mobile */
+    font-size: 20px; 
     margin-bottom: 15px;
   }
 
@@ -107,13 +103,13 @@
   }
 
   .contactBtn {
-    padding: 15px 25px; /* Adjust button size for mobile */
+    padding: 15px 25px; 
     font-size: 16px;
   }
 
   .aboutImage {
-    margin-top: 30px; /* Adds some space above the image in smaller screens */
-    max-width: 70%; /* Adjusted for smaller screens */
+    margin-top: 30px; 
+    max-width: 70%; 
     margin-bottom: 15px;
   }
 }
