@@ -15,24 +15,41 @@ export const About = () => {
         <div className={styles.aboutContent}>
           <h3>Software Developer</h3>
           <p>
-            Hi, I'm Arun Pandyan Vasam, a passionate Software Developer based in
-            Ontario, Canada. With a diploma in Computer Programming from
-            Sheridan College, I have a strong foundation in object-oriented
-            programming, data structures, and algorithms.
+            Hi, I'm{" "}
+            <span className={styles.highlightName}>Arun Pandyan Vasam</span>, a
+            dedicated Software Developer based in Brampton, Ontario. With a
+            diploma in Computer Programming from Sheridan College, I have a
+            strong foundation in system architecture, development, and
+            integration.
           </p>
           <p>
-            My expertise spans Java, C, Python, PL/SQL, Spring Boot, .NET,
-            React, Angular, MySQL and Shell Scripting. I am familiar with cloud
-            computing and DevOps.
+            My expertise spans{" "}
+            <strong>
+              Java, C, C++, Python, PL/SQL, Spring Boot, .NET, React, Angular,
+              MySQL, MongoDB, and Shell Scripting
+            </strong>
+            . I'm also experienced in cloud computing, DevOps, and CI/CD
+            pipelines using GitHub Actions, Docker, and Jenkins.
           </p>
           <p>
-            I’ve built projects like VoiceMatch-AI, a voice recognition system,
-            and developed a website for the Telangana Canada Association to
-            enhance accessibility and performance.
+            Professionally, I am currently working as a{" "}
+            <strong>WordPress Development Intern at My Worthy Home</strong>,
+            where I customized WordPress themes and plugins, integrated REST
+            APIs, and optimized websites for performance, SEO, and security.
+            Previously, as a <strong>Jr. Developer at Infotrack Systems</strong>
+            , I contributed to HR and Payroll software, implementing
+            multi-threaded processing and optimizing system performance.
           </p>
           <p>
-            I'm always eager to learn, innovate, and collaborate on impactful
-            projects.
+            Some of my notable projects include <strong>VoiceMatch-AI</strong>,
+            a Python-based voice recognition system utilizing machine learning,
+            and a fully responsive <strong>Portfolio Website</strong> built with
+            React.
+          </p>
+          <p>
+            Passionate about problem-solving and continuous learning, I am eager
+            to innovate and contribute to impactful projects. Let’s connect and
+            build something great together!
           </p>
         </div>
       </div>

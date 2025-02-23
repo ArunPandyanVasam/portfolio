@@ -11,10 +11,13 @@ export const Hero = () => {
           Hi there! Welcome to my digital space!
         </h1>
         <p className={styles.name}>
-          I am <span className={styles.highlightName}>Arun</span>, an entry-level
-          software developer skilled in Java, React & cloud technologies, eager
-          to learn and contribute.
+          I am <span className={styles.highlightName}>Arun Pandyan Vasam</span>,
+          a passionate Software Developer with expertise in Java, React, C++,
+          and cloud technologies. Experienced in building scalable applications,
+          optimizing software performance, and integrating real-time processing.
+          Always eager to learn, innovate, and contribute to impactful projects.
         </p>
+
         <a href="mailto:arunpandyanv@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>

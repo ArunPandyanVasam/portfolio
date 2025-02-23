@@ -1,7 +1,7 @@
 [
   {
     "role": "WordPress Development Intern",
-    "organisation": "My Worthy Home",
+    "organisation": "My Worthy Home, Remote", 
     "startDate": "Jan, 2025",
     "endDate": "Present",
     "experiences": [
@@ -12,15 +12,17 @@
     "imageSrc": "/assets/history/myworthyhome.png"
   },
   {
-    "role": "Team Lead",
-    "organisation": "Best Buy Distribution Centre",
-    "startDate": "May, 2024",
-    "endDate": "Dec, 2024",
+    "role": "Jr. Developer",
+    "organisation": "Infotrack Systems, India",
+    "startDate": "Oct, 2021",
+    "endDate": "Nov, 2022",
     "experiences": [
-      "Led a team in warehouse operations and logistics",
-      "Managed workflow efficiency and task delegation",
-      "Trained new team members for operational success"
+      "Developed HR & Payroll software features in C/C++, improving processing efficiency by 10%.",
+      "Optimized payroll processing using real-time software principles.",
+      "Managed software deliveries using Git and agile methodologies.",
+      "Led performance and scalability discussions for software modules."
     ],
-    "imageSrc": "/assets/history/bestbuy.png"
+    "imageSrc": "/assets/history/infotrack.png"
   }
+  
 ]
