@@ -1,150 +1,140 @@
 .card {
-  min-width: 180px;  
-  max-width: 600px;  
-  background-color: #9da993;
-  border-radius: 10px;
-  padding: 15px;
+  min-width: 120px; /* Further reduced min-width */
+  max-width: 60%;  /* Smaller max-width */
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 6px; /* Smaller rounded corners */
+  padding: 10px; /* Further reduced padding */
   text-align: center;
-  transition: transform 0.3s ease-in-out;
-  color: rgb(0, 0, 0);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: #333333; /* Darker text for readability */
   margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Reduced shadow */
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.02); /* Smaller hover scale */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle hover shadow */
 }
 
 .cardImage {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  border-radius: 6px; /* Softer rounded corners */
+  margin-bottom: 10px; /* Reduced margin between image and text */
 }
 
 .cardTitle {
-  font-size: 1.2rem; 
-  font-weight: 700;
-  margin-bottom: 10px;
+  font-size: 0.9rem; /* Smaller title for a compact design */
+  font-weight: 700; /* Bold title for clarity */
+  margin-bottom: 6px; /* Reduced margin for a compact look */
+  color: #222222; /* Darker title color */
 }
 
 .cardDescription {
-  font-size: 0.9rem;  
-  color: #000000;
-  margin-bottom: 10px;  
-  padding: 0% 5%;
+  font-size: 0.75rem;  /* Further reduced description text */
+  color: #666666;
+  margin-bottom: 6px;  
+  padding: 0 5%;
+  line-height: 1.2; /* Adjusted line height */
+  text-align: left; /* Left-aligned text */
 }
 
 .cardSkills {
   display: flex;
-  gap: 8px;  
+  gap: 3px;  /* Even smaller gap between skills */
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 6px; /* Reduced margin */
   padding: 0;
   list-style: none;
 }
 
 .cardSkill {
-  font-size: 12px;  
-  font-weight: 400;
-  border-radius: 100px;
-  background: #e3e8e9;
-  padding: 4px 10px;  
+  font-size: 9px;  /* Smaller font size */
+  font-weight: 500;
+  border-radius: 50px;
+  background: #e2e6ea;
+  padding: 3px 5px;
+  color: #333333;
 }
 
 .cardLinks {
-  margin-top: 16px; 
+  margin-top: 10px; 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .cardLink {
   text-decoration: none;
-  color: #fff;
-  font-size: 1rem;  
+  color: #ffffff;
+  font-size: 0.8rem;  /* Smaller font size */
   font-weight: 600;
-  background: #000000;
-  padding: 5px 14px;  
-  transition: background 0.3s ease;
+  background: #007bff;
+  padding: 4px 8px; /* Smaller padding */
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .cardLink:hover {
-  color: rgb(0, 0, 0);
-  background: #870a30;
+  background: #0056b3;
+  transform: translateY(-2px); /* Slight lift effect on hover */
 }
 
+.cardLink:focus {
+  outline: 3px solid #0056b3;
+}
 
+/* Responsive Layout Adjustments */
 @media (max-width: 768px) {
-  .container {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-
-  .subtitle {
-    font-size: 40px;
-  }
-
   .projects {
     flex-direction: column;
-    gap: 20px;
+    gap: 10px; /* Ensures spacing between cards */
   }
 
   .card {
-    max-width: 90%;
+    max-width: 75%;
     margin: 0 auto;
   }
 
   .cardTitle {
-    font-size: 1.1rem; 
+    font-size: 0.85rem; /* Adjusted for medium screens */
   }
 
   .cardDescription {
-    font-size: 0.85rem;
+    font-size: 0.7rem; /* Smaller description for medium screens */
   }
 
   .cardSkill {
-    font-size: 10px;  
-    padding: 2px 8px; 
+    font-size: 8px;  
+    padding: 3px 5px;  
   }
 
   .cardLink {
-    font-size: 0.9rem; 
-    padding: 4px 10px;  
+    font-size: 0.75rem; /* Smaller font size */
+    padding: 4px 7px;
   }
 }
 
 @media (max-width: 480px) {
-  .title {
-    font-size: 24px;
-  }
-
-  .subtitle {
-    font-size: 32px;
-  }
-
   .card {
-    max-width: 100%;
+    max-width: 95%;
     margin: 0 auto;
   }
 
   .cardTitle {
-    font-size: 1rem;  
+    font-size: 0.75rem; /* Smaller title for mobile screens */
   }
 
   .cardDescription {
-    font-size: 0.8rem;
+    font-size: 0.65rem; /* Smaller description for mobile */
   }
 
   .cardSkill {
-    font-size: 9px;  
-    padding: 2px 6px;  
+    font-size: 7px;  
+    padding: 3px 4px;  
   }
 
   .cardLink {
-    font-size: 0.85rem;  
-    padding: 4px 8px;  
+    font-size: 0.7rem; 
+    padding: 4px 6px;
   }
 }

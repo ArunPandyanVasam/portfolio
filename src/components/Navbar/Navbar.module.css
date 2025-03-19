@@ -8,9 +8,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 10%;
-  background-color: #f8efe4;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 18px 8%; /* Reduced padding for a more compact and balanced look */
+  background-color: #f8efe4; /* Soft neutral background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12); /* Slightly heavier shadow for depth */
   z-index: 1000;
 }
 
@@ -21,8 +21,8 @@
 }
 
 .title img {
-  width: 100px;
-  height: auto; 
+  width: 120px; /* Default larger size for larger screens */
+  height: auto;
 }
 
 .menu {
@@ -38,14 +38,14 @@
   justify-content: space-between;
   width: 30px;
   height: 22px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .burger {
   width: 100%;
   height: 4px;
   background-color: var(--color-text);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .menuItems {
@@ -55,15 +55,16 @@
 }
 
 .menuItems a {
-  font-size: 22px;
-  font-weight: 600;
-  color:#000000;
+  font-size: 20px; /* Slightly smaller for better balance */
+  font-weight: 500; /* Lighter weight for readability */
+  color: #000000;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease; /* Added transform for subtle hover scaling */
 }
 
 .menuItems a:hover {
   color: #4d0011;
+  transform: scale(1.05); /* Subtle zoom effect on hover */
 }
 
 @media screen and (max-width: 830px) {
@@ -84,7 +85,7 @@
     justify-content: center;
     gap: 25px;
     transform: translateY(-100%);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease;
     opacity: 0;
   }
 
@@ -97,6 +98,7 @@
     font-size: 28px;
     color: white;
     text-transform: uppercase;
+    letter-spacing: 1px; /* Adds a bit of spacing between letters for a more professional look */
   }
 
   /* Hamburger to X transformation */
@@ -110,5 +112,17 @@
 
   .menuBtn.open .burger:nth-child(3) {
     transform: rotate(-45deg) translateY(-6px);
+  }
+
+  /* Logo resize for smaller screens */
+  .title img {
+    width: 90px; /* Smaller size for screens smaller than 830px */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Even smaller screen adjustments */
+  .title img {
+    width: 80px; /* Further reduced size for very small screens */
   }
 }

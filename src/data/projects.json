@@ -1,17 +1,18 @@
 [
     {
-        "title": "TodoList",
-        "imageSrc": "projects/todoList.png",
-        "description": "This is a To-Do List application built to learn and apply the latest web technologies. It helps users efficiently manage tasks with a clean, interactive, and user-friendly interface.",
+        "title": "Dynamic Surge Pricing",
+        "imageSrc": "projects/dynamic-surge-pricing.png",
+        "description": "This is a Dynamic Surge Pricing application designed to calculate and display real-time price surges based on weather conditions. Users can enter their location to see the base price, weather surcharge, and the final price for their orders. The app leverages Flask for the backend and React for the frontend, offering a seamless, interactive user experience.",
         "skills": [
-            "MongoDB",
-            "Express",
+            "Flask",
             "React",
-            "Node.js"
+            "Axios",
+            "Bootstrap",
+            "CORS"
         ],
-        "demo": "https://keeptracklist.netlify.app/",
-        "source": "https://github.com/ArunPandyanVasam/todoList"
-    },
+        "demo": "https://dynamic-surge-pricing-frontend.vercel.app/",
+        "source": "https://github.com/ArunPandyanVasam/dynamic-surge-pricing"
+    },    
     {
         "title": "Multiplication Game",
         "imageSrc": "projects/multiplicationApp.png",
