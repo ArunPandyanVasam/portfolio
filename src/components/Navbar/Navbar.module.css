@@ -1,5 +1,15 @@
 @import "../../vars.css";
 
+
+:root {
+  --bg-color: #f8efe4;
+  --text-color: #000000;
+  --hover-color: #4d0011;
+  --menu-bg: rgba(2, 55, 109, 0.9);
+  --transition: 0.3s ease;
+}
+
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -8,16 +18,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 8%; 
-  background-color: #f8efe4; 
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12); 
+  padding: 18px 8%;
+  background-color: var(--bg-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
   z-index: 1000;
 }
 
 .title {
   display: inline-block;
-  text-decoration: none;
-  color: inherit;
 }
 
 .title img {
@@ -25,28 +33,30 @@
   height: auto;
 }
 
+
 .menu {
   display: flex;
   align-items: center;
 }
+
 
 .menuBtn {
   display: none;
   cursor: pointer;
   flex-direction: column;
   gap: 6px;
-  justify-content: space-between;
   width: 30px;
   height: 22px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: var(--transition);
 }
 
 .burger {
   width: 100%;
   height: 4px;
-  background-color: var(--color-text);
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: var(--text-color);
+  transition: var(--transition);
 }
+
 
 .menuItems {
   display: flex;
@@ -57,14 +67,14 @@
 .menuItems a {
   font-size: 20px;
   font-weight: 500;
-  color: #000000;
+  color: var(--text-color);
   text-decoration: none;
-  transition: color 0.3s ease, transform 0.3s ease; 
+  transition: var(--transition);
 }
 
 .menuItems a:hover {
-  color: #4d0011;
-  transform: scale(1.05); 
+  color: var(--hover-color);
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 830px) {
@@ -73,7 +83,6 @@
   }
 
   .menuItems {
-    display: flex;
     flex-direction: column;
     align-items: center;
     position: fixed;
@@ -81,12 +90,12 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(2, 55, 109, 0.9);
+    background: var(--menu-bg);
     justify-content: center;
     gap: 25px;
     transform: translateY(-100%);
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease;
     opacity: 0;
+    transition: 0.5s ease-in-out;
   }
 
   .menuOpen {
@@ -98,9 +107,8 @@
     font-size: 28px;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
   }
-
 
   .menuBtn.open .burger:nth-child(1) {
     transform: rotate(45deg) translateY(6px);
@@ -115,12 +123,12 @@
   }
 
   .title img {
-    width: 90px; 
+    width: 90px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .title img {
-    width: 80px; 
+    width: 80px;
   }
 }
