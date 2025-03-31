@@ -4,11 +4,10 @@
         "imageSrc": "projects/dynamic-surge-pricing.png",
         "description": "This is a Dynamic Surge Pricing application designed to calculate and display real-time price surges based on weather conditions. Users can enter their location to see the base price, weather surcharge, and the final price for their orders. The app leverages Flask for the backend and React for the frontend, offering a seamless, interactive user experience.",
         "skills": [
-            "Flask",
+            "Python",
             "React",
             "Axios",
-            "Bootstrap",
-            "CORS"
+            "API"
         ],
         "demo": "https://dynamic-surge-pricing.vercel.app/",
         "source": "https://github.com/ArunPandyanVasam/dynamic-surge-pricing"
