@@ -1,140 +1,144 @@
 .card {
-  min-width: 120px; 
-  max-width: 60%;  
-  background-color: #ffffff; 
-  border-radius: 6px; 
-  padding: 10px; 
-  text-align: center;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  color: #333333; 
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333333;
   margin: 0 auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .card:hover {
-  transform: scale(1.02); 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
 .cardImage {
   width: 100%;
-  height: auto;
-  border-radius: 6px; 
-  margin-bottom: 10px; 
+  max-height: 250px; /* Increased both height and width */
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .cardTitle {
-  font-size: 0.9rem; 
-  font-weight: 700; 
-  margin-bottom: 6px; 
-  color: #222222; 
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222222;
+  margin: 0;
 }
 
 .cardDescription {
-  font-size: 0.75rem;  
-  color: #666666;
-  margin-bottom: 6px;  
-  padding: 0 5%;
-  line-height: 1.2; 
+  font-size: 1rem;
+  color: #444444;
+  margin-top: 5px;
+  line-height: 1.5;
   text-align: left;
 }
 
 .cardSkills {
   display: flex;
-  gap: 3px; 
-  justify-content: center;
-  margin-top: 6px;
+  flex-wrap: wrap;
+  gap: 8px;
   padding: 0;
   list-style: none;
 }
 
 .cardSkill {
-  font-size: 9px;  
+  font-size: 0.85rem;
   font-weight: 500;
-  border-radius: 50px;
-  background: #e2e6ea;
-  padding: 3px 5px;
+  border-radius: 20px;
+  background: #e8f0fe;
+  padding: 6px 14px;
   color: #333333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+}
+
+.cardSkill:hover {
+  background: #d0e2ff;
+  transform: scale(1.05);
 }
 
 .cardLinks {
-  margin-top: 10px; 
+  margin-top: 12px;
   display: flex;
-  justify-content: space-between;
+  gap: 12px;
 }
 
 .cardLink {
   text-decoration: none;
   color: #ffffff;
-  font-size: 0.8rem;  
+  font-size: 0.9rem;
   font-weight: 600;
   background: #007bff;
-  padding: 4px 8px; 
-  border-radius: 6px;
+  padding: 8px 16px;
+  border-radius: 8px;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .cardLink:hover {
   background: #0056b3;
-  transform: translateY(-2px); 
+  transform: translateY(-2px);
 }
 
 .cardLink:focus {
   outline: 3px solid #0056b3;
 }
 
-
+/* 📱 Responsive Adjustments */
 @media (max-width: 768px) {
-  .projects {
-    flex-direction: column;
-    gap: 10px;
-  }
-
   .card {
-    max-width: 75%;
-    margin: 0 auto;
+    max-width: 90%;
+    padding: 20px;
   }
 
   .cardTitle {
-    font-size: 0.85rem; 
+    font-size: 1.1rem;
   }
 
   .cardDescription {
-    font-size: 0.7rem; 
+    font-size: 0.95rem;
   }
 
   .cardSkill {
-    font-size: 8px;  
-    padding: 3px 5px;  
+    font-size: 0.8rem;
+    padding: 5px 12px;
   }
 
   .cardLink {
-    font-size: 0.75rem;
-    padding: 4px 7px;
+    font-size: 0.85rem;
+    padding: 7px 14px;
   }
 }
 
 @media (max-width: 480px) {
   .card {
-    max-width: 95%;
-    margin: 0 auto;
+    max-width: 100%;
+    padding: 18px;
   }
 
   .cardTitle {
-    font-size: 0.75rem; 
+    font-size: 1rem;
   }
 
   .cardDescription {
-    font-size: 0.65rem; 
+    font-size: 0.9rem;
   }
 
   .cardSkill {
-    font-size: 7px;  
-    padding: 3px 4px;  
+    font-size: 0.75rem;
+    padding: 5px 10px;
   }
 
   .cardLink {
-    font-size: 0.7rem; 
-    padding: 4px 6px;
+    font-size: 0.8rem;
+    padding: 6px 12px;
   }
 }

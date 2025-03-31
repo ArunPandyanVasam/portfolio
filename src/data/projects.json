@@ -15,7 +15,7 @@
     {
         "title": "Multiplication Game",
         "imageSrc": "projects/multiplicationApp.png",
-        "description": "This is a Multiplication Game created to learn and apply the latest web technologies. It offers an interactive and engaging way to practice multiplication while exploring modern development techniques.",
+        "description": "This is a Multiplication Game designed to help users learn and practice multiplication through an engaging and interactive platform. By integrating the latest web technologies, the game provides an enjoyable and educational experience. Players can challenge themselves, track their progress, and sharpen their math skills while exploring modern development techniques.",
         "skills": [
             "HTML",
             "CSS",
