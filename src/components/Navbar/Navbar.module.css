@@ -29,7 +29,7 @@
 }
 
 .title img {
-  width: 75px;
+  width: 65px;
   height: auto;
 }
 
@@ -123,12 +123,12 @@
   }
 
   .title img {
-    width: 90px;
+    width: 45px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .title img {
-    width: 80px;
+    width: 55px;
   }
 }
