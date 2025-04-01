@@ -4,11 +4,11 @@ import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        <img src="/assets/nav/logo.png" alt="" />
+        <img src="/assets/nav/logo.png" alt="Logo" />
       </a>
       <div className={styles.menu}>
         <div
