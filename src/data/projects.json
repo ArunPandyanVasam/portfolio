@@ -10,7 +10,7 @@
             "API"
         ],
         "demo": "https://dynamic-surge-pricing.vercel.app/",
-        "source": "https://github.com/ArunPandyanVasam/dynamic-surge-pricing"
+        "source": "https://github.com/ArunPandyanVasam/dynamic-surge-pricing-frontend"
     },    
     {
         "title": "Multiplication Game",
