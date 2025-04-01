@@ -1,3 +1,4 @@
+/* 📦 Card Container */
 .card {
   width: 100%;
   max-width: 420px;
@@ -6,7 +7,7 @@
   padding: 24px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: #333333;
+  color: #333;
   margin: 0 auto;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
   overflow: hidden;
@@ -20,28 +21,31 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
+/* 📸 Project Image */
 .cardImage {
   width: 100%;
-  max-height: 250px; /* Increased both height and width */
+  max-height: 250px;
   object-fit: cover;
   border-radius: 10px;
 }
 
+/* 🏷 Title */
 .cardTitle {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  color: #222222;
+  color: #222;
   margin: 0;
 }
 
+/* 📖 Description */
 .cardDescription {
   font-size: 1rem;
-  color: #444444;
+  color: #444;
   margin-top: 5px;
   line-height: 1.5;
-  text-align: left;
 }
 
+/* 🔹 Skills */
 .cardSkills {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +60,7 @@
   border-radius: 20px;
   background: #e8f0fe;
   padding: 6px 14px;
-  color: #333333;
+  color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   transition: all 0.2s ease-in-out;
 }
@@ -66,33 +70,49 @@
   transform: scale(1.05);
 }
 
+/* 🔗 Links */
 .cardLinks {
   margin-top: 12px;
   display: flex;
   gap: 12px;
 }
 
+/* 🚀 Main Button */
 .cardLink {
   text-decoration: none;
   color: #ffffff;
   font-size: 0.9rem;
   font-weight: 600;
-  background: #007bff;
+  background: linear-gradient(135deg, #007bff, #0056b3);
   padding: 8px 16px;
   border-radius: 8px;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .cardLink:hover {
-  background: #0056b3;
-  transform: translateY(-2px);
+  background: linear-gradient(135deg, #0056b3, #004080);
+  transform: scale(1.05);
 }
 
-.cardLink:focus {
-  outline: 3px solid #0056b3;
+/* 💻 Secondary Button */
+.cardLinkSecondary {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 2px solid #007bff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
-/* 📱 Responsive Adjustments */
+.cardLinkSecondary:hover {
+  background: #007bff;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
 @media (max-width: 768px) {
   .card {
     max-width: 90%;
@@ -112,7 +132,8 @@
     padding: 5px 12px;
   }
 
-  .cardLink {
+  .cardLink,
+  .cardLinkSecondary {
     font-size: 0.85rem;
     padding: 7px 14px;
   }
@@ -137,7 +158,8 @@
     padding: 5px 10px;
   }
 
-  .cardLink {
+  .cardLink,
+  .cardLinkSecondary {
     font-size: 0.8rem;
     padding: 6px 12px;
   }
