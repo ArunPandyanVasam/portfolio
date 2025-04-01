@@ -5,31 +5,28 @@ import { getImageUrl } from "../../utils";
 export const Contact = () => {
   return (
     <footer className={styles.container} id="contact">
-      {/* Left Side - Contact & About */}
       <div className={styles.contactSection}>
         <h2>Contact Me</h2>
-        <p>If you have any questions or would like to connect, feel free to reach out!</p>
-        
-        {/* New About Section */}
+        <p>
+          If you have any questions or would like to connect, feel free to reach
+          out!
+        </p>
+
         <div className={styles.aboutMe}>
           <h3>About Me</h3>
           <p>
-            I’m a passionate software developer specializing in building dynamic 
-            web applications. I enjoy working on real-world problems and making 
+            I’m a passionate software developer specializing in building dynamic
+            web applications. I enjoy working on real-world problems and making
             innovative solutions.
           </p>
         </div>
       </div>
 
-      {/* Right Side - Links */}
       <div className={styles.linksContainer}>
         <h3>Find Me On</h3>
         <ul className={styles.links}>
           <li className={styles.link}>
-            <img
-              src={getImageUrl("contact/emailIcon.png")}
-              alt="Email Icon"
-            />
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon" />
             <a href="mailto:arunpandyanv@gmail.com">arunpandyanv@gmail.com</a>
           </li>
           <li className={styles.link}>
@@ -49,9 +46,8 @@ export const Contact = () => {
         </ul>
       </div>
 
-      {/* Footer Bottom */}
       <div className={styles.footerBottom}>
-        <p>Let's build something great together! 🚀</p>
+        <p>Let's build something great together!</p>
       </div>
     </footer>
   );

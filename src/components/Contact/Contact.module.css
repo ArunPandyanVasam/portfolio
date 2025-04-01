@@ -1,162 +1,154 @@
-/* Full-Width Footer */
 .container {
-    width: 100%;
-    background-color: #222;
-    padding: 60px 10%;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  background-color: #222;
+  padding: 60px 10%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contactSection {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contactSection h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.contactSection p {
+  font-size: 18px;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.aboutMe {
+  margin-top: 30px;
+  padding: 15px;
+  border-top: 2px solid #444;
+}
+
+.aboutMe h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.aboutMe p {
+  font-size: 16px;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+.linksContainer {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.linksContainer h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 0;
+}
+
+.link img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #444;
+  padding: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link img:hover {
+  background-color: #0073b1;
+  transform: scale(1.1);
+}
+
+.link a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: #1da1f2;
+}
+
+.footerBottom {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.7;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 40px;
+    text-align: left;
+    padding: 50px 7%;
   }
-  
-  /* Contact Section */
+
   .contactSection {
-    flex: 1;
-    min-width: 300px;
+    width: 100%;
+    margin-bottom: 30px;
   }
-  
-  .contactSection h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 12px;
-  }
-  
-  .contactSection p {
-    font-size: 18px;
-    opacity: 0.8;
-    line-height: 1.6;
-  }
-  
-  /* New About Me Section */
+
   .aboutMe {
-    margin-top: 30px;
-    padding: 15px;
-    border-top: 2px solid #444;
+    margin-top: 20px;
+    padding: 10px;
   }
-  
-  .aboutMe h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-  }
-  
-  .aboutMe p {
-    font-size: 16px;
-    opacity: 0.85;
-    line-height: 1.6;
-  }
-  
-  /* Links Section */
+
   .linksContainer {
-    flex: 1;
-    min-width: 300px;
+    width: 100%;
+  }
+
+  .linksContainer h3 {
+    margin-bottom: 15px;
+  }
+
+  .links {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
   }
-  
-  .linksContainer h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #444;
-    padding-bottom: 5px;
-    display: inline-block;
-  }
-  
-  /* Links */
-  .links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+
   .link {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 8px 0;
+    justify-content: flex-start;
   }
-  
+
   .link img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #444;
-    padding: 8px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 35px;
+    height: 35px;
   }
-  
-  .link img:hover {
-    background-color: #0073b1;
-    transform: scale(1.1);
-  }
-  
-  .link a {
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-  }
-  
-  .link a:hover {
-    color: #1da1f2;
-  }
-  
-  /* Footer Bottom */
-  .footerBottom {
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    opacity: 0.7;
-    border-top: 1px solid #444;
-    padding-top: 20px;
-    margin-top: 40px;
-  }
-  
-  /* ✅ Mobile Optimization */
-  @media screen and (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      align-items: flex-start;
-      text-align: left;
-      padding: 50px 7%;
-    }
-  
-    .contactSection {
-      width: 100%;
-      margin-bottom: 30px;
-    }
-  
-    .aboutMe {
-      margin-top: 20px;
-      padding: 10px;
-    }
-  
-    .linksContainer {
-      width: 100%;
-    }
-  
-    .linksContainer h3 {
-      margin-bottom: 15px;
-    }
-  
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-  
-    .link {
-      justify-content: flex-start;
-    }
-  
-    .link img {
-      width: 35px;
-      height: 35px;
-    }
-  }
-  
+}

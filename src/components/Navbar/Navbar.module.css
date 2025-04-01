@@ -71,7 +71,6 @@
   transform: scale(1.08);
 }
 
-/* Mobile Navigation */
 @media screen and (max-width: 830px) {
   .menuBtn {
     display: flex;

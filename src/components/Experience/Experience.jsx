@@ -41,7 +41,9 @@ export const Experience = () => {
               <div className={styles.entryInfo}>
                 <h4 className={styles.degree}>{edu.degree}</h4>
                 <p className={styles.institution}>{edu.institution}</p>
-                <p className={styles.date}>{edu.graduationStartDate} - {edu.graduationEndDate}</p>
+                <p className={styles.date}>
+                  {edu.graduationStartDate} - {edu.graduationEndDate}
+                </p>
               </div>
               <p className={styles.description}>{edu.description}</p>
             </div>

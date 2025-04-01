@@ -1,4 +1,4 @@
-@import "../../vars.css"; 
+@import "../../vars.css";
 
 .container {
   margin-top: 50px;
@@ -58,26 +58,24 @@
   border-radius: 50%;
 }
 
-
-.role, .degree {
+.role,
+.degree {
   font-size: 20px;
   font-weight: 700;
 }
 
-
-.organisation, .institution {
+.organisation,
+.institution {
   font-size: 18px;
   font-weight: 600;
   color: #555555;
 }
-
 
 .date {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-
 
 .list {
   padding-left: 20px;
@@ -88,27 +86,25 @@
   margin-bottom: 5px;
 }
 
-
 .description {
   font-size: 16px;
 }
-
 
 .entryInfo {
   display: block;
 }
 
-.degree, .institution, .date {
+.degree,
+.institution,
+.date {
   display: block;
   margin-bottom: 8px;
 }
-
 
 .entry:hover {
   transform: translateY(-5px);
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
-
 
 @media (max-width: 768px) {
   .container {
@@ -133,11 +129,13 @@
     padding: 10px 15px;
   }
 
-  .role, .degree {
+  .role,
+  .degree {
     font-size: 18px;
   }
 
-  .organisation, .institution {
+  .organisation,
+  .institution {
     font-size: 16px;
   }
 
@@ -172,11 +170,13 @@
     padding: 10px 15px;
   }
 
-  .role, .degree {
+  .role,
+  .degree {
     font-size: 16px;
   }
 
-  .organisation, .institution {
+  .organisation,
+  .institution {
     font-size: 14px;
   }
 

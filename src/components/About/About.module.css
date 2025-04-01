@@ -82,7 +82,7 @@
   }
 
   .aboutContent {
-    text-align: left; /* Ensuring text remains left-aligned on mobile */
+    text-align: left;
   }
 
   .aboutContent p {
