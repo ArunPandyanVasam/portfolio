@@ -1,51 +1,45 @@
 @import "../../vars.css";
 
-
 .container {
   text-align: center;
   margin: 100px auto;
-  max-width: 1080px;
-  padding: 0 20px; 
+  max-width: 1440px;
+  padding: 0 20px;
 }
 
-
 .title {
-  color: var(--color-text); 
-  font-size: 40px;
+  color: var(--color-text);
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
-
 
 .card {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: #f8efe4;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   padding: 30px;
-  gap: 100px;
+  gap: 60px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
 }
-
 
 .aboutImage {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
-  border: 3px solid #ddd;
-  border-radius: 10px; 
+  border: 4px solid #ddd;
+  border-radius: 50%;
 }
-
 
 .aboutContent {
   text-align: left;
@@ -53,38 +47,45 @@
 }
 
 .aboutContent h3 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
-  color: #000000;
-  margin-bottom: 10px;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 .aboutContent p {
   font-size: 18px;
-  line-height: 1.6;
-  color: #141414;
-  padding: 3px;
-  margin: 0; 
+  line-height: 1.7;
+  color: #555;
+  margin: 10px 0;
 }
 
+.aboutContent p strong {
+  color: #1a73e8;
+}
+
+.highlightName {
+  font-weight: 700;
+  color: #333;
+}
 
 @media screen and (max-width: 768px) {
   .card {
     flex-direction: column;
     padding: 20px;
-    gap: 30px; 
+    gap: 30px;
   }
 
   .aboutImage {
-    width: 210px;
-    height: 210px;
+    width: 220px;
+    height: 220px;
   }
 
   .aboutContent {
-    text-align: center;
+    text-align: left; /* Ensuring text remains left-aligned on mobile */
   }
 
   .aboutContent p {
-    font-size: 16px; 
+    font-size: 16px;
   }
 }
