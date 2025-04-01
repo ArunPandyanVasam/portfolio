@@ -38,7 +38,7 @@ export const ProjectCard = ({
           rel="noopener noreferrer"
           aria-label={`View live demo of ${title}`}
         >
-          🚀 Live Demo
+          Live Demo
         </a>
         {source && (
           <a
@@ -48,7 +48,7 @@ export const ProjectCard = ({
             rel="noopener noreferrer"
             aria-label={`View source code of ${title}`}
           >
-            💻 Source Code
+            Source Code
           </a>
         )}
       </div>
