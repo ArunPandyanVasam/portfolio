@@ -5,43 +5,53 @@ import { getImageUrl } from "../../utils";
 export const Contact = () => {
   return (
     <footer className={styles.container} id="contact">
-      <div className={styles.text}>
+      {/* Left Side - Contact & About */}
+      <div className={styles.contactSection}>
         <h2>Contact Me</h2>
         <p>If you have any questions or would like to connect, feel free to reach out!</p>
+        
+        {/* New About Section */}
+        <div className={styles.aboutMe}>
+          <h3>About Me</h3>
+          <p>
+            I’m a passionate software developer specializing in building dynamic 
+            web applications. I enjoy working on real-world problems and making 
+            innovative solutions.
+          </p>
+        </div>
       </div>
+
+      {/* Right Side - Links */}
       <div className={styles.linksContainer}>
+        <h3>Find Me On</h3>
         <ul className={styles.links}>
           <li className={styles.link}>
             <img
               src={getImageUrl("contact/emailIcon.png")}
               alt="Email Icon"
-              aria-label="Email Icon"
             />
-            <a href="mailto:arunpandyanv@gmail.com" target="_blank" rel="noopener noreferrer">
-              arunpandyanv@gmail.com
-            </a>
+            <a href="mailto:arunpandyanv@gmail.com">arunpandyanv@gmail.com</a>
           </li>
           <li className={styles.link}>
             <img
               src={getImageUrl("contact/linkedinIcon.png")}
               alt="LinkedIn Icon"
-              aria-label="LinkedIn Icon"
             />
-            <a href="https://www.linkedin.com/in/arun-vasam/" target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </a>
+            <a href="https://www.linkedin.com/in/arun-vasam/">LinkedIn</a>
           </li>
           <li className={styles.link}>
             <img
               src={getImageUrl("contact/githubIcon.png")}
               alt="GitHub Icon"
-              aria-label="GitHub Icon"
             />
-            <a href="https://github.com/ArunPandyanVasam" target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
+            <a href="https://github.com/ArunPandyanVasam">GitHub</a>
           </li>
         </ul>
+      </div>
+
+      {/* Footer Bottom */}
+      <div className={styles.footerBottom}>
+        <p>Let's build something great together! 🚀</p>
       </div>
     </footer>
   );

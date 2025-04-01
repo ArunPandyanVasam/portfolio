@@ -1,101 +1,162 @@
-@import "../../vars.css";
-
+/* Full-Width Footer */
 .container {
-    color: var(--color-tertiary);
-    margin-top: 100px;
-    background-color: #1d2b64;
+    width: 100%;
+    background-color: #222;
+    padding: 60px 10%;
+    color: #fff;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100vw;
-    padding: 70px 10%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 40px;
-    align-items: center;
-    border-top: 2px solid var(--color-primary);
-}
-
-.text {
-    text-align: center;
-}
-
-.text h2 {
-    font-size: 60px;
+  }
+  
+  /* Contact Section */
+  .contactSection {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contactSection h2 {
+    font-size: 36px;
     font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--color-primary);
-    margin-bottom: 20px;
-}
-
-.text p {
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    color: var(--color-secondary);
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.links {
+    margin-bottom: 12px;
+  }
+  
+  .contactSection p {
+    font-size: 18px;
+    opacity: 0.8;
+    line-height: 1.6;
+  }
+  
+  /* New About Me Section */
+  .aboutMe {
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 2px solid #444;
+  }
+  
+  .aboutMe h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .aboutMe p {
+    font-size: 16px;
+    opacity: 0.85;
+    line-height: 1.6;
+  }
+  
+  /* Links Section */
+  .linksContainer {
+    flex: 1;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
+  }
+  
+  .linksContainer h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  
+  /* Links */
+  .links {
     list-style: none;
-    gap: 20px;
     padding: 0;
-}
-
-.link {
+    margin: 0;
+  }
+  
+  .link {
     display: flex;
     align-items: center;
     gap: 15px;
-}
-
-.link a {
-    color: var(--color-tertiary);
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.link a:hover {
-    color: var(--color-primary);
-    transform: scale(1.05);
-}
-
-.link img {
-    width: 28px;
-    height: 28px;
-    transition: transform 0.3s ease;
-}
-
-.link img:hover {
+    padding: 8px 0;
+  }
+  
+  .link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #444;
+    padding: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .link img:hover {
+    background-color: #0073b1;
     transform: scale(1.1);
-}
-
-@media screen and (max-width: 830px) {
+  }
+  
+  .link a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .link a:hover {
+    color: #1da1f2;
+  }
+  
+  /* Footer Bottom */
+  .footerBottom {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.7;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 40px;
+  }
+  
+  /* ✅ Mobile Optimization */
+  @media screen and (max-width: 768px) {
     .container {
-        flex-direction: column;
-        gap: 40px;
-        padding: 40px 5%;
-        text-align: center;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      padding: 50px 7%;
     }
-
-    .text h2 {
-        font-size: 48px;
+  
+    .contactSection {
+      width: 100%;
+      margin-bottom: 30px;
     }
-
-    .text p {
-        font-size: 18px;
+  
+    .aboutMe {
+      margin-top: 20px;
+      padding: 10px;
     }
-
-    .link a {
-        font-size: 16px;
+  
+    .linksContainer {
+      width: 100%;
     }
-
+  
+    .linksContainer h3 {
+      margin-bottom: 15px;
+    }
+  
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .link {
+      justify-content: flex-start;
+    }
+  
     .link img {
-        width: 24px;
-        height: 24px;
+      width: 35px;
+      height: 35px;
     }
-}
+  }
+  
