@@ -23,30 +23,5 @@
         ],
         "demo": "https://gamemultiplication.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/Multiplication-App"
-    },
-    {
-        "title": "Dynamic Surge Pricing",
-        "imageSrc": "projects/dynamic-surge-pricing.png",
-        "description": "This is a Dynamic Surge Pricing application designed to calculate and display real-time price surges based on weather conditions. Users can enter their location to see the base price, weather surcharge, and the final price for their orders. The app leverages Flask for the backend and React for the frontend, offering a seamless, interactive user experience.",
-        "skills": [
-            "Python",
-            "React",
-            "Axios",
-            "API"
-        ],
-        "demo": "https://dynamic-surge-pricing.vercel.app/",
-        "source": "https://github.com/ArunPandyanVasam/dynamic-surge-pricing"
-    },    
-    {
-        "title": "Multiplication Game",
-        "imageSrc": "projects/multiplicationApp.png",
-        "description": "This is a Multiplication Game designed to help users learn and practice multiplication through an engaging and interactive platform. By integrating the latest web technologies, the game provides an enjoyable and educational experience. Players can challenge themselves, track their progress, and sharpen their math skills while exploring modern development techniques.",
-        "skills": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "demo": "https://gamemultiplication.netlify.app/",
-        "source": "https://github.com/ArunPandyanVasam/Multiplication-App"
     }
 ]
