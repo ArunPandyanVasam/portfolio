@@ -1,14 +1,10 @@
-@import "../../vars.css";
-
-
 :root {
   --bg-color: #f8efe4;
   --text-color: #000000;
   --hover-color: #4d0011;
-  --menu-bg: rgba(2, 55, 109, 0.9);
-  --transition: 0.3s ease;
+  --menu-bg: rgba(2, 55, 109, 0.95);
+  --transition: 0.3s ease-in-out;
 }
-
 
 .navbar {
   position: fixed;
@@ -25,7 +21,8 @@
 }
 
 .title {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .title img {
@@ -33,12 +30,10 @@
   height: auto;
 }
 
-
 .menu {
   display: flex;
   align-items: center;
 }
-
 
 .menuBtn {
   display: none;
@@ -57,16 +52,15 @@
   transition: var(--transition);
 }
 
-
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 40px;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   color: var(--text-color);
   text-decoration: none;
   transition: var(--transition);
@@ -74,9 +68,10 @@
 
 .menuItems a:hover {
   color: var(--hover-color);
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
+/* Mobile Navigation */
 @media screen and (max-width: 830px) {
   .menuBtn {
     display: flex;
@@ -92,19 +87,19 @@
     height: 100vh;
     background: var(--menu-bg);
     justify-content: center;
-    gap: 25px;
-    transform: translateY(-100%);
+    gap: 30px;
+    transform: translateX(-100%);
     opacity: 0;
-    transition: 0.5s ease-in-out;
+    transition: var(--transition);
   }
 
   .menuOpen {
-    transform: translateY(0);
+    transform: translateX(0);
     opacity: 1;
   }
 
   .menuItems a {
-    font-size: 28px;
+    font-size: 24px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -123,12 +118,12 @@
   }
 
   .title img {
-    width: 45px;
+    width: 50px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .title img {
-    width: 55px;
+    width: 45px;
   }
 }
