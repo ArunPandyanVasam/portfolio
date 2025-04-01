@@ -29,15 +29,15 @@
 .projects {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  gap: 40px;
   width: 100%;
   padding: 0 5%;
 }
 
 @media screen and (max-width: 768px) {
   .projects {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     padding: 0;
   }
 }

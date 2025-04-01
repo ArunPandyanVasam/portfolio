@@ -13,11 +13,9 @@ export const About = () => {
           className={styles.aboutImage}
         />
         <div className={styles.aboutContent}>
-          <h3>Software Developer</h3>
+          <h3>Junior Software Developer</h3>
           <p>
-            Hello, I’m{" "}
-            <span className={styles.highlightName}>Arun Pandyan Vasam</span>, a
-            skilled Software Developer based in Brampton, Ontario. With a
+            I’m a Junior Software Developer based in Brampton, Ontario. With a
             diploma in Computer Programming from Sheridan College, I specialize
             in building efficient, scalable, and user-friendly software
             solutions.
@@ -25,25 +23,26 @@ export const About = () => {
           <p>
             My expertise spans a range of technologies, including{" "}
             <strong>
-              Java, C, Python, PL/SQL, Spring Boot, .NET, React, Angular,
-              MySQL, MongoDB, Shell Scripting
+              Java, C, Python, PL/SQL, Spring Boot, .NET, React, Angular, MySQL,
+              MongoDB, Shell Scripting
             </strong>
             , and cloud computing.
           </p>
           <p>
             At <strong>Infotrack Systems</strong>, I contributed to the
             development of HR and Payroll software, enhancing system performance
-            through multi-threaded process integration. This improved efficiency
-            and data processing for enterprise applications.
+            through multi-threaded process integration, improving efficiency and
+            data processing for enterprise applications.
           </p>
           <p>
-            One of my key projects is the Dynamic Price Surging App, a
-            full-stack application built with React (frontend) and Flask
-            (backend). The system dynamically adjusts food prices based on
-            real-time weather conditions, utilizing API integrations for
-            temperature-based surge calculations. This project showcases my
-            ability to develop data-driven applications, API integrations, and
-            real-time pricing strategies.
+            One of my key projects is the{" "}
+            <strong>Dynamic Price Surging App</strong>, a full-stack application
+            built with React (frontend) and Flask (backend). The system
+            dynamically adjusts food prices based on real-time weather
+            conditions, utilizing API integrations for temperature-based surge
+            calculations. This project demonstrates my ability to develop
+            data-driven applications, API integrations, and real-time pricing
+            strategies.
           </p>
           <p>
             Passionate about solving real-world problems, I continuously explore
