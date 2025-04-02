@@ -1,6 +1,5 @@
 @import "../../vars.css";
 
-/* Footer container and layout */
 .container {
   width: 100%;
   background-color: #222;
@@ -125,7 +124,6 @@
   color: #aaa;
 }
 
-/* Desktop screens */
 @media screen and (min-width: 1024px) {
   .container {
     flex-direction: row;
@@ -145,7 +143,6 @@
   }
 }
 
-/* Tablets */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .container {
     flex-direction: row;
@@ -185,7 +182,6 @@
   }
 }
 
-/* Mobile screens */
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;

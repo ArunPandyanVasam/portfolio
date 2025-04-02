@@ -1,7 +1,7 @@
 :root {
   --bg-color: #f8efe4;
   --text-color: #000000;
-  --hover-color: #242020; /* Light color on hover */
+  --hover-color: #242020;
   --menu-bg: rgba(2, 55, 109, 0.95);
   --transition: 0.3s ease-in-out;
 }
@@ -69,7 +69,6 @@
   position: relative;
 }
 
-/* Hover effect: light color & smooth underline */
 .menuItems a:hover {
   color: var(--hover-color);
 }
