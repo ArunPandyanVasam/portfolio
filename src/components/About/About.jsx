@@ -16,9 +16,8 @@ export const About = () => {
           <h3>Junior Software Developer</h3>
           <p>
             I’m a Junior Software Developer based in Brampton, Ontario. With a
-            diploma in Computer Programming, I specialize
-            in building efficient, scalable, and user-friendly software
-            solutions.
+            diploma in Computer Programming, I specialize in building efficient,
+            scalable, and user-friendly software solutions.
           </p>
           <p>
             My expertise spans a range of technologies, including{" "}
