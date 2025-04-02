@@ -61,7 +61,6 @@
   border-radius: 10px;
 }
 
-/* Tablets */
 @media screen and (max-width: 1024px) {
   .container {
     flex-direction: column-reverse;
@@ -94,7 +93,7 @@
   }
 }
 
-/* Mobile Devices */
+
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column-reverse;
@@ -126,7 +125,7 @@
   }
 }
 
-/* Small Mobile Devices */
+
 @media screen and (max-width: 480px) {
   .container {
     padding: 30px 5%;

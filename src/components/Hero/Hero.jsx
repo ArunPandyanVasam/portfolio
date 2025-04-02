@@ -18,11 +18,11 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <img
+      {/* <img
         src={getImageUrl("hero/heroImage.png")}
         alt="Arun Pandyan Vasam"
         className={styles.aboutImage}
-      />
+      /> */}
     </section>
   );
 };
