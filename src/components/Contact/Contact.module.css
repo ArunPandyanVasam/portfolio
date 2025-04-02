@@ -1,3 +1,6 @@
+@import "../../vars.css";
+
+/* Footer container and layout */
 .container {
   width: 100%;
   background-color: #222;
@@ -18,7 +21,8 @@
 .contactSection h2 {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+  color: #fff;
 }
 
 .contactSection p {
@@ -29,20 +33,23 @@
 
 .aboutMe {
   margin-top: 30px;
-  padding: 15px;
+  padding: 20px;
   border-top: 2px solid #444;
+  background-color: #333;
 }
 
 .aboutMe h3 {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 .aboutMe p {
   font-size: 16px;
   opacity: 0.85;
   line-height: 1.6;
+  color: #ddd;
 }
 
 .linksContainer {
@@ -50,7 +57,7 @@
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .linksContainer h3 {
@@ -60,6 +67,7 @@
   border-bottom: 2px solid #444;
   padding-bottom: 5px;
   display: inline-block;
+  color: #fff;
 }
 
 .links {
@@ -71,8 +79,9 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   padding: 8px 0;
+  transition: transform 0.3s ease-in-out;
 }
 
 .link img {
@@ -86,7 +95,7 @@
 
 .link img:hover {
   background-color: #0073b1;
-  transform: scale(1.1);
+  transform: translateY(-3px);
 }
 
 .link a {
@@ -111,6 +120,72 @@
   margin-top: 40px;
 }
 
+.footerBottom p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Desktop screens */
+@media screen and (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 60px 10%;
+    gap: 40px;
+  }
+
+  .contactSection {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .linksContainer {
+    flex: 1;
+    min-width: 300px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    padding: 50px 8%;
+  }
+
+  .contactSection {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .aboutMe {
+    padding: 15px;
+  }
+
+  .linksContainer {
+    width: 50%;
+  }
+
+  .linksContainer h3 {
+    margin-bottom: 15px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .link {
+    justify-content: flex-start;
+  }
+
+  .link img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Mobile screens */
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -126,7 +201,7 @@
 
   .aboutMe {
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
   }
 
   .linksContainer {
@@ -140,7 +215,7 @@
   .links {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
   }
 
   .link {
@@ -150,5 +225,10 @@
   .link img {
     width: 35px;
     height: 35px;
+  }
+
+  .footerBottom {
+    font-size: 14px;
+    margin-top: 20px;
   }
 }

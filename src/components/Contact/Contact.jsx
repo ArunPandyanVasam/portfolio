@@ -8,16 +8,16 @@ export const Contact = () => {
       <div className={styles.contactSection}>
         <h2>Contact Me</h2>
         <p>
-          If you have any questions or would like to connect, feel free to reach
-          out!
+          Feel free to reach out if you have any questions or would like to
+          connect!
         </p>
 
         <div className={styles.aboutMe}>
           <h3>About Me</h3>
           <p>
-            I’m a passionate software developer specializing in building dynamic
-            web applications. I enjoy working on real-world problems and making
-            innovative solutions.
+            I'm a passionate software developer who enjoys building dynamic
+            web applications and solving real-world problems. I thrive on
+            creating innovative solutions with cutting-edge technologies.
           </p>
         </div>
       </div>
