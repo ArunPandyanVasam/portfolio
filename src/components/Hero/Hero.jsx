@@ -1,28 +1,20 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.heroSection}>
+      <div className={styles.overlay}></div>
       <div className={styles.content}>
         <h1 className={styles.heading}>Hey! I’m Arun Pandyan Vasam</h1>
-        <p className={styles.name}>
-          A Junior Software Developer with expertise in Java, React, Python, and cloud technologies. 
-          I specialize in developing scalable applications, optimizing real-time processes, 
-          and solving complex technical challenges. My focus lies in AI-driven solutions, 
-          high-performance software development, and building efficient, data-driven systems.
+        <p className={styles.description}>
+          Junior Software Developer skilled in <strong>Java, React, Python, and Cloud Technologies</strong>.<br/>
+          Passionate about <strong>AI-driven solutions</strong>, high-performance software, and data-driven systems.
         </p>
-
         <a href="mailto:arunpandyanv@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
-      {/* <img
-        src={getImageUrl("hero/heroImage.png")}
-        alt="Arun Pandyan Vasam"
-        className={styles.aboutImage}
-      /> */}
     </section>
   );
 };
