@@ -7,13 +7,6 @@
   margin-right: 10%;
 }
 
-.title {
-  font-size: 32px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .content {
   display: flex;
   gap: 40px;
@@ -29,15 +22,18 @@
 }
 
 .sectionTitle {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: var(--color-primary);
 }
 
 .entry {
   margin-bottom: 30px;
-  padding: 15px 20px;
+  padding: 20px 25px;
   border-left: 4px solid #002540;
+  background-color: var(--color-background);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .entryHeader {
@@ -56,12 +52,14 @@
   height: 80px;
   object-fit: cover;
   border-radius: 50%;
+  border: 2px solid #002540;
 }
 
 .role,
 .degree {
   font-size: 20px;
   font-weight: 700;
+  color: var(--color-text);
 }
 
 .organisation,
@@ -88,17 +86,7 @@
 
 .description {
   font-size: 16px;
-}
-
-.entryInfo {
-  display: block;
-}
-
-.degree,
-.institution,
-.date {
-  display: block;
-  margin-bottom: 8px;
+  color: var(--color-text);
 }
 
 .entry:hover {
@@ -110,15 +98,6 @@
   .container {
     margin-left: 5%;
     margin-right: 5%;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-
-  .content {
-    flex-direction: column;
-    gap: 20px;
   }
 
   .sectionTitle {
@@ -158,10 +137,6 @@
 }
 
 @media (max-width: 480px) {
-  .title {
-    font-size: 24px;
-  }
-
   .sectionTitle {
     font-size: 20px;
   }

@@ -14,7 +14,7 @@ export const Experience = () => {
               <div className={styles.entryHeader}>
                 <img
                   src={exp.imageSrc}
-                  alt={exp.role}
+                  alt={`Image for ${exp.role} at ${exp.organisation}`}
                   className={styles.image}
                 />
                 <div className={styles.entryInfo}>
