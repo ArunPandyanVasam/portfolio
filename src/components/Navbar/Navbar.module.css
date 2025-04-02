@@ -1,7 +1,7 @@
 :root {
   --bg-color: #f8efe4;
   --text-color: #000000;
-  --hover-color: #4d0011;
+  --hover-color: #242020; /* Light color on hover */
   --menu-bg: rgba(2, 55, 109, 0.95);
   --transition: 0.3s ease-in-out;
 }
@@ -64,11 +64,30 @@
   color: var(--text-color);
   text-decoration: none;
   transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
 }
 
+/* Hover effect: light color & smooth underline */
 .menuItems a:hover {
   color: var(--hover-color);
-  transform: scale(1.08);
+}
+
+.menuItems a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--hover-color);
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.menuItems a:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 @media screen and (max-width: 830px) {
@@ -101,7 +120,15 @@
     font-size: 24px;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+  }
+
+  .menuItems a:hover {
+    color: var(--hover-color);
+  }
+
+  .menuItems a::after {
+    background: var(--hover-color);
   }
 
   .menuBtn.open .burger:nth-child(1) {
