@@ -23,5 +23,16 @@
         ],
         "demo": "https://gamemultiplication.netlify.app/",
         "source": "https://github.com/ArunPandyanVasam/Multiplication-App"
+    },    
+    {
+        "title": "Solo Travel UI",
+        "imageSrc": "projects/soloTravelApp.png",
+        "description": "I built a Solo Travel page as a single-page application using React. The homepage is designed to provide a clean, engaging experience for solo travelers, offering essential information and functionality in one place without the need for navigation. It includes features like vehicle hosting, allowing users to browse and rent vehicles for their solo adventures, all within a simple, user-friendly interface.",
+        "skills": [
+            "React"
+        ],
+        "demo": "https://solotravel.netlify.app/",
+        "source": "https://github.com/ArunPandyanVasam/TravelApp-Frontend"
     }
+    
 ]
